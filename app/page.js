@@ -124,7 +124,7 @@ export default function Home() {
 
 
         <div class="cta-section">
-            <img src="images/CTA-bg3.jpg" class="cta-image-bg"></img>
+            <img src="images/cta-bg3.jpg" class="cta-image-bg"></img>
             <div class="cta-content">
                 <div class="cta-left">
                     <h2>Join WayForward</h2>
