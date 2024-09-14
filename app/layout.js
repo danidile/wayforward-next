@@ -22,7 +22,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
+      <head>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..300,0..1,-50..200" />
+      <link href='https://fonts.googleapis.com/css2?family=Montserrat' rel='stylesheet' type='text/css'/>
+
+      </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <NavBar/>
         {children}

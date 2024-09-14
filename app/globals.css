@@ -4,7 +4,6 @@
   --main-color:#ff8557;
   --main-color-white:#f8f2eb;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -652,3 +651,48 @@ text-align: justify;
   width: 100px;
 }
 
+
+
+.values-cards-section{
+
+}
+
+.values-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 60px;
+
+}
+
+.values-card{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 400px;
+  width: 400px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 12px;
+  color: #dedede;
+}
+
+
+.values-card-title{
+  font-weight: 600;
+  transition: 0.7s;
+  position: relative;
+  left: -130%;
+  top: 20px;
+}
+.values-card-text{
+  transition: 0.7s;
+  position: relative;
+  left: 0%;
+  top: -10px;
+}

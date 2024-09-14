@@ -1,8 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Script from "next/script";
+
 
 export default function Home() {
   return (<>
+
     <div className="rst-hero-container">
            
            <img src="/images/rst.jpg" className="rst-hero-image"></img>
@@ -30,10 +33,22 @@ export default function Home() {
                        <li>Calling people to do the same</li>
                    </ul>
                </div>
-           
-
+       </div>
+       <div className="values-cards-section">
+        <div className="values-cards">
+        <div className="values-card"><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
+        <div className="values-card"><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
+        <div className="values-card"><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit. </p></div>
+        <div className="values-card"><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
+        <div className="values-card"><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div>
+        
+        </div>
        </div>
 
-        
+
+
+
+       <Script  src="/snippets/rst.js" />
+
   </>);
 }
