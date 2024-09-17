@@ -34,17 +34,41 @@ export default function Home() {
                    </ul>
                </div>
        </div>
-       <div className="values-cards-section">
-        <div className="values-cards">
-        <div className="values-card"><img className="vc-image" src="/images/vc-1.jpg" /><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-2.jpg" /><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-3.jpg" /><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit. </p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-4.jpg" /><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-5.jpg" /><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div>
-        
+        <div className="steps-section">
+            <h2>Follow the steps.</h2>
+            <div className="steps-container">
+                <div className="steps-card"><h6 className="steps-title">APPLY</h6></div>
+                <div className="steps-card"><img src="/images/arrow.png" className="steps-arrow"/></div>
+                <div className="steps-card"><h6 className="steps-title">GET TRAINED</h6></div>
+                <div className="steps-card"><img src="/images/arrow.png" className="steps-arrow" /></div>
+                <div className="steps-card"><h6 className="steps-title">MOVE IN</h6></div>
+                <div className="steps-card"><img src="/images/arrow.png" className="steps-arrow" /></div>
+                <div className="steps-card"><h6 className="steps-title">IMPACT</h6></div>
+            </div>
         </div>
-       </div>
+        <div className="apply-section">
+            <div className="apply-container">
+                <img className="apply-img" src="/images/church.jpg" alt=""/>
+                <div className="apply-content">
+                    <h1 className="apply-title">01.APPLY</h1>
+                    <h3>Apply today!</h3>
+                    <p>click the button below to apply and start your journey!</p>
+                    <a href="/partner" className="global-button-1">Apply Now</a>                
+                    </div>
+            </div>
+        </div>
+        <div className="apply-section">
+            <div className="apply-container">
+                <div className="apply-content">
+                    <h1 className="apply-title">OPENINGS</h1>
+                    <h3>Current WayForward Openings</h3>
+                    <p>click the button below to apply and start your journey!</p>
+                    <a href="/partner" className="global-button-1">Apply Now</a>                
+                </div>
+                <img className="apply-img" src="/images/map.jpg" alt=""/>
 
+            </div>
+        </div>
 
 
 

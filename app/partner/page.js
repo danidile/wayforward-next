@@ -57,8 +57,7 @@ export default function Home() {
             <div className="values-card"><img className="vc-image" src="/images/vc1.jpg" /><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
             <div className="values-card"><img className="vc-image" src="/images/vc2.jpg" /><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit. </p></div>
             <div className="values-card"><img className="vc-image" src="/images/vc3.jpg" /><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
-            <div className="values-card"><img className="vc-image" src="/images/vc4.jpg" /><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div>
-            
+            <div className="values-card"><img className="vc-image" src="/images/vc4.jpg" /><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div> 
         </div>
        </div>
    <Script  src="/snippets/partners.js" />

@@ -2,6 +2,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --main-color:#ff8557;
+  --main-color-light:#ffa786;
   --main-color-white:#f8f2eb;
 }
 
@@ -34,6 +35,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Montserrat;
+  min-width: 0;
 }
 
 button{
@@ -43,6 +45,16 @@ button{
   font-family: Montserrat;
   font-size: 16px;
   border: 0px;
+}
+
+
+.global-button-1{
+  font-weight: 500;
+  padding: 9px 25px;
+  background-color: var(--main-color-light);
+  color: var(--main-color-white);
+  width: fit-content;
+
 }
 a{
   color: inherit;
@@ -536,12 +548,12 @@ opacity: 0.75;
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: 0.3s;
 }
 .circle-partner:hover{
-  transition: 1s;
+  transition: 0.3s;
   font-weight: 800;
   font-size: 14px;
-  mix-blend-mode: ;
   border-radius: 100%;
   border: 2px dotted hsl(16, 75%, 80%);
   background-color: #ff845722;
@@ -591,7 +603,8 @@ opacity: 0.75;
   width: 300px;
   height: 300px;
   margin-left: 40px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;}
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
 
 
 
@@ -608,7 +621,6 @@ opacity: 0.75;
   margin: 0px auto;
   padding: 5vh;
   z-index: 8;
-  background-color: #ffffffc2;
   color: black;
 }
 .wpw-section h2{
@@ -682,7 +694,6 @@ margin: 30px auto;
 .values-card img{
   position: absolute;
   height: 400px;
-  opacity: 0.2;
 }
 
 .values-card-title{
@@ -700,11 +711,13 @@ margin: 30px auto;
   transition: 0.7s;
   position: relative;
   left: -130%;
-  top: -30px;
+  top: -20px;
 
 }
 .vc-image{
   transition: 0.7s;
+  opacity: 0.7;
+
 }
 
 #vc-1{
@@ -724,3 +737,92 @@ margin: 30px auto;
   #vc-5{
     background-image: url('/images/vc-5.jpg');
   }
+
+
+  .steps-section{
+    width: 98vw;
+    margin: 50px auto;
+    border-radius: 24px;
+  }
+  .steps-section h2{
+    text-align: center;
+  }
+  .steps-title:hover{
+    transition: 0.3s;
+    color: var(--main-color);
+  }
+  .steps-container{
+    
+    width: 1400px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 900;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+.steps-card h6{
+  font-size: 35px;
+  font-weight: 800;
+
+}
+  .steps-arrow{
+    width: 100px;
+  }
+
+
+
+
+
+
+
+
+  .apply-section{
+    width: 98vw;
+    margin: 20px auto;
+  }
+
+  .apply-container{
+    overflow: hidden;
+    border-radius: 24px;
+    background: linear-gradient(to right, #f8f2eb, transparent),
+    url(https://grainy-gradients.vercel.app/noise.svg);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .apply-content{
+    width: 49vw;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .apply-content p{
+    margin: 40px 0px 20px 0px;
+  }
+
+  .apply-img{
+
+    width: 49vw;
+    height: 40vw;
+    object-fit: cover;
+  }
+
+  .apply-title{
+    position: absolute;
+    top: 0px;
+    opacity: 0.1;
+  }
+
+  .apply-content button{
+    width: fit-content;
+    padding: 12px 35px;
+  }
+
+
