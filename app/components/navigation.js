@@ -4,7 +4,7 @@ export default function NavBar() {
     
             <div className="menu-container">
                 <div className="menu-img-container">
-                <img  className="menu-logo"  src="/images/logo-web.png" alt=""></img>
+                <img  className="menu-logo"  src="/images/WF-Logo.png" alt=""></img>
 
                 </div>
                 <div className="menu-list-container">

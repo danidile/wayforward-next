@@ -9,9 +9,12 @@ export default function Home() {
 
 
     <div className="hero-section">
-            <h1>Impacting Communities
+            <h1>
+                Impacting Communities
             </h1>
-            <h6>Leading the way in forming disciple-makers in every community.</h6>
+            <h5>
+                Leading the way in forming disciple-makers in every community. 
+            </h5>
 
     </div>
         <div className="numbers-section">
@@ -50,8 +53,11 @@ export default function Home() {
                 </div>
                 
             </div>
-
-            <a href="" className="button-big" id="button-big"><h6>What are you going to do about it?</h6></a>
+            <a href="" className="button-big">
+                <div>
+                    Let's partner
+                </div>
+            </a>
         </div>
 
     

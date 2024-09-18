@@ -53,7 +53,12 @@ export default function Home() {
                     <h1 className="apply-title">01.APPLY</h1>
                     <h3>Apply today!</h3>
                     <p>click the button below to apply and start your journey!</p>
-                    <a href="/partner" className="global-button-1">Apply Now</a>                
+                    
+                    <a href="" className="button-big">
+                        <div>
+                            Let's partner
+                        </div>
+                    </a>              
                     </div>
             </div>
         </div>
@@ -63,7 +68,11 @@ export default function Home() {
                     <h1 className="apply-title">OPENINGS</h1>
                     <h3>Current WayForward Openings</h3>
                     <p>click the button below to apply and start your journey!</p>
-                    <a href="/partner" className="global-button-1">Apply Now</a>                
+                    <a href="" className="button-big">
+                        <div>
+                            Let's partner
+                        </div>
+                    </a>
                 </div>
                 <img className="apply-img" src="/images/map.jpg" alt=""/>
 
