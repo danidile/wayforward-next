@@ -8,13 +8,30 @@ export default function Home() {
           <Script src="/snippets/homePageSlider.js" type="text/javascript"/>
 
 
-    <div className="hero-section">
+    <div className="hero-section ">
+            <div className="hero-gradient"></div>
             <h1>
                 Impacting Communities
             </h1>
-            <h5>
-                Leading the way in forming disciple-makers in every community. 
-            </h5>
+            <h6>
+            WayForward is a community of multi-housing owners, churches, and<br/>
+            organizations that aim to address these gaps by fostering meaningful <br/>
+            connections by bringing faith-driven action and engagement to the <br/>
+            forefront of community life. 
+ 
+            </h6>
+
+    </div>
+
+    <div class="impact-section">
+        <h5>
+            Leading the way in forming<br/>disciple-makers in every community. 
+        </h5>
+        <div class="impact-images">
+            <img src="/images/v1.jpg" alt=""/>
+            <img src="/images/v5.jpg" alt=""/>
+            <img src="/images/v3.jpg" alt=""/>
+        </div>
 
     </div>
         <div className="numbers-section">

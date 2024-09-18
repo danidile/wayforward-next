@@ -6,10 +6,11 @@ import Script from "next/script";
 export default function Home() {
   return (<>
 
-    <div className="rst-hero-container">
+    <div className="hero-section">
+            <div className="hero-gradient"></div>
+
+            <img src="/images/rst.jpg" className="rst-hero-image"></img>
            
-           <img src="/images/rst.jpg" className="rst-hero-image"></img>
-           <div className="rst-hero-content">
                <h1>Resident Support Team</h1>
                <h6>
                    Join hundreds of people impacting their local communities. 
@@ -17,9 +18,7 @@ export default function Home() {
                <p>
                    Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
                </p>
-               <button href="/rst.html"className="button-1">Get started</button>
                
-           </div>
            
        </div>
        <div className="fc-section">
