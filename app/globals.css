@@ -619,7 +619,6 @@ z-index: 1;
 .circle-partner{
   font-weight: 800;
   font-size: 14px;
-  mix-blend-mode: ;
   border-radius: 100%;
   border: 2px dotted hsl(16, 75%, 80%);
   background-color: #ff845710;
