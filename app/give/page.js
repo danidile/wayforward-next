@@ -5,50 +5,60 @@ import Script from "next/script";
 
 export default function Home() {
   return (<>
+    <div className="apply-section">
+            <div className="apply-container">
+                <div className="apply-content">
+                    <h1 className="apply-title">GIVE</h1>
+                    <h3>
+                        Give to support our Resident Support Teams boots on the ground.
+                    </h3>
+                    <p>
+                        Track your impact.
+                        Transform lives in communities you could never go to.
+                    </p>
+                    
+                    <a href="https://www.google.com/url?q=https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c&sa=D&source=docs&ust=1726693158445325&usg=AOvVaw2CS_oQcMK_tjxvyBU40WBf" className="button-big">
+                        <div>
+                            Donate now
+                        </div>
+                    </a>
+                          
+                </div>
+                <div className="give-methods-container">
+                        <div className="cta-donate">
+                            <h6>Methods to donate:</h6>
+                                <button class="accordion">Grants: <img src="/images/right-arrow.png" className="accordian-arrow" />
+                                    <div class="panel">
+                                        <p>
+                                        ·  	Give from a personal 501(c)3<br/>
+                                        ·  	Give from Impact Foundation<br/>
+                                        ·  	Give from National Christian Foundation [NCF]<br/>
+                                        ·  	Give from Signatry
+                                        </p>
+                                    </div>
+                                </button>
+                                
 
-    <div className="rst-hero-container">
-           
-           <img src="/images/rst.jpg" className="rst-hero-image"></img>
-           <div className="rst-hero-content">
-               <h1>Resident Support Team</h1>
-               <h6>
-                   Join hundreds of people impacting their local communities. 
-               </h6>
-               <p>
-                   Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
-               </p>
-               <button href="/rst.html"className="button-1">Get started</button>
-               
-           </div>
-           
-       </div>
-       <div className="fc-section">
-               <div className="fc-content">
-                   <h2>Our 5 C’s:</h2>
-                   <ul>
-                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
-                       <li>Connect residents to local resources and point them to social services</li>
-                       <li>Celebrate with events-with-intent</li>
-                       <li>Community engagement for residents</li>
-                       <li>Calling people to do the same</li>
-                   </ul>
-               </div>
-       </div>
-       <div className="values-cards-section">
-        <div className="values-cards">
-        <div className="values-card"><img className="vc-image" src="/images/vc-1.jpg" /><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-2.jpg" /><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-3.jpg" /><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit. </p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-4.jpg" /><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-5.jpg" /><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div>
+                                <button class="accordion accordion-2">Mail a check to: <img src="/images/right-arrow.png" className="accordian-arrow" />
+                                    <div class="panel">
+                                        <p>
+                                            WayForward 401 Congress Ave. STE. 3250 Austin, TX 78701 Attn: Dominic Rosato
+                                        </p>
+                                    </div>
+                                </button>
+                                
+                        </div>
+                    </div>  
+                
+            </div>
+    </div>
+   
         
-        </div>
-       </div>
+    <Script src="/snippets/give.js" type="text/javascript"/>
 
-
-
-
-       <Script  src="/snippets/rst.js" />
-
+                
+        
+       
+    
   </>);
 }

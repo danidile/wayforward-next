@@ -13,8 +13,12 @@ export default function NavBar() {
                         <li><a href="/multi-housing-training">Multi-Housing Training</a></li>
                         <li><a href="/give">Donate</a></li>
                         <li><a href="">Training</a></li>
-                        <li><a href="/partner" className="menu-button-1">Let’s Partner</a></li>
-                        <li><a href="/rst" className="menu-button-2">Become An RST</a></li>
+                        <li><a href="/partner">Partner</a></li>
+                        <li>
+                        <a href="" className="button-big">
+                            Become an RST
+                        </a>
+                        </li>
                     </ul>
                 </div>
             </div>
