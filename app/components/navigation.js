@@ -15,7 +15,7 @@ export default function NavBar() {
                         <li><a href="">Training</a></li>
                         <li><a href="/partner">Partner</a></li>
                         <li>
-                        <a href="" className="button-big">
+                        <a href="/rst" className="button-big">
                             Become an RST
                         </a>
                         </li>

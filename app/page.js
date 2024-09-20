@@ -41,32 +41,44 @@ export default function Home() {
             <h6>Some more numbers for you</h6>
             <div className="numbers-container">
                 <div className="card-numbers">
-                    <img src="/images/management.png" alt=""></img>
-                    <h5>Living situation</h5>
-                    <p>
-                        Today 37% of the U.S. population live in some form of multi-housing. 
-                    </p>
+                    <img src="/images/management.png" alt=""/>
+                    <div>
+                        <h5>Living situation</h5>
+                        <p>
+                            Today 37% of the U.S. population live in some form of multi-housing. 
+                        </p>
+                    </div>
                 </div>
+                <div class="divider-vertical-top"></div>
                 <div className="card-numbers">
-                    <img src="/images/alone.png" alt=""></img>
-                    <h5>Community</h5>
-                    <p>
-                        On average, 1 in 3 people struggle with loneliness.  
-                    </p>
+                    <img src="/images/alone.png" alt=""/>
+                    <div>
+                        <h5>Community</h5>
+                        <p>
+                            On average, 1 in 3 people struggle with loneliness.  
+                        </p>
+                    </div>
                 </div>
+                <div class="divider"></div>
                 <div className="card-numbers">
-                    <img src="/images/church.png" alt=""></img>
-                    <h5>Church attendency</h5>
-                    <p>
-                        Up to 98% of multi-housing residents are unengaged or unchurched. 
-                    </p>
+                    <img src="/images/church.png" alt=""/>
+                    <div >
+                        <h5>Church attendency</h5>
+                        <p>
+                            Up to 98% of multi-housing residents are unengaged or unchurched. 
+                        </p>
+                    </div>
                 </div>
+                <div class="divider-vertical-bottom"></div>
+
                 <div className="card-numbers">
-                    <img src="/images/bible.png" alt=""></img>
-                    <h5>Action</h5>
-                    <p>
-                        Only 6% of Christians actively integrate their faith with action.
-                    </p>
+                    <img src="/images/bible.png" alt=""/>
+                    <div >
+                        <h5>Action</h5>
+                        <p>
+                            Only 6% of Christians actively integrate their faith with action.
+                        </p>
+                    </div>
                 </div>
                 
             </div>

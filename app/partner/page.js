@@ -28,7 +28,7 @@ export default function Home() {
                     <h2 class="h2-wpw-card">01</h2>
                     <img src="/images/multi1.jpg"  class="wpw-card-image"/>
                     <div class="wpw-text-container">
-                        <h5>MULTI-HOUSING OWNERS</h5>
+                        <h5>Multi-House Owners</h5>
                         <p>WayForward provides value to RE Owners through resident engagement and staff satisfaction.</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ export default function Home() {
                     <h2 class="h2-wpw-card">02</h2>
                     <img src="/images/church1.jpg"  class="wpw-card-image"/>
                     <div class="wpw-text-container">
-                        <h5>CHURCHES</h5>
+                        <h5>Churches</h5>
                         <p>WayForward provides value to Churches through training and mobilization.</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function Home() {
                     <h2 class="h2-wpw-card">03</h2>
                     <img src="/images/organizations1.jpg"  class="wpw-card-image"/>
                     <div class="wpw-text-container">
-                        <h5>ORGANIZATIONS</h5>
+                        <h5>Organizations</h5>
                         <p>WayForward provides value to organizations through collaboration, training, and networking.</p>
                     </div>
                 </div>

@@ -8,6 +8,9 @@
   --border-radius--xs: .1875rem;
   --border-radius--rg: 1rem;
   --border-radius--lg: 1.5rem;
+  --text-l: 2.375rem;
+  --text-m: 1.55rem;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -191,14 +194,11 @@ small{
   top: 0px;
   left: 0px;
   position: absolute;
-
-  
-
-  background: #e68056;
-  background: -moz-linear-gradient(135deg, rgba(230,128,86,1) 9%, rgba(230,128,86,0) 55%);
-  background: -webkit-linear-gradient(135deg, rgba(230,128,86,1) 9%, rgba(230,128,86,0) 55%);
-  background: linear-gradient(135deg, rgba(230,128,86,1) 9%, rgba(230,128,86,0) 55%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e68056",endColorstr="#e68056",GradientType=1);
+  background: rgb(0,0,0);
+background: -moz-linear-gradient(133deg, rgba(0,0,0,0.6657256652661064) 0%, rgba(0,0,0,0) 41%);
+background: -webkit-linear-gradient(133deg, rgba(0,0,0,0.6657256652661064) 0%, rgba(0,0,0,0) 41%);
+background: linear-gradient(133deg, rgba(0,0,0,0.6657256652661064) 0%, rgba(0,0,0,0) 41%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
 .impact-section{
@@ -240,7 +240,7 @@ small{
 
 
 .numbers-section{
-  padding: 9rem 0vh;
+  padding: 5rem 0vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,37 +248,66 @@ small{
 }
 
 .numbers-container{
-  width: 90vw;
+  width: 1250px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin: 6rem 0px;
+  border-radius: 24px;
+  border: 1px solid #cfc8c8;
+  padding: 6rem 6rem;
+  background-image: url('/images/bg-gradient.jpg');
+  object-position: bottom;
 
 }
+.numbers-container .divider{
+width: 55%;
+margin: 0px auto;
+border-top: 1px solid #cfc8c8;
+}
+.numbers-container .divider-vertical-top{
+  width: 2px;
+  align-self:flex-end;
+  height: 100px;
+  border-left: 1px solid #cfc8c8;
+  }
+  .numbers-container .divider-vertical-bottom{
+    width: 2px;
+    align-self:flex-start;
+    height: 100px;
+    border-left: 1px solid #cfc8c8;
+    }
 
 .card-numbers{
+  width: 49.5%;
+  height: 200px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 9rem 0px;
-  min-width: 230px;
-  width: 250px;
-  flex-grow: 1;
-  text-align: center;
-  
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  padding: 2rem 20px;
+  gap: 20px;
+  background-color: e8e0dc;
+  transition: 0.5s;
+
   
 }
+.card-numbers:hover{
+  background-color: rgba(255, 255, 255, 0.488);
+}
+
 
 .card-numbers img{
   overflow: visible;
-  width: 70px;
-  margin: 20px auto;
-  padding: 15px;
-  background-color: #fffaf3;
-  border-radius: 50%;
+  max-width: 30px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
   
 }
+
+
 
 .button-big{
   color: var(--main-color-white);
@@ -680,6 +709,16 @@ z-index: 1;
 .partner-hero-text{
   align-self: center;
 }
+.partner-hero-text h1{
+
+  width: 1000px;
+}
+.partner-hero-text h6{
+  align-self: center;
+  font-size: var(--text-l);
+  font-weight: 300 ;
+  width: 900px;
+}
 .partner-hero-img{
   border-radius: 12px;
   width: 300px;
@@ -718,11 +757,13 @@ z-index: 1;
 
 .wpw-card p{
   font-weight: 300;
-  width: 330px;
-text-align: justify;
+  width: 450px;
+font-size: var(--text-m);
+
 }
 .wpw-card h5{
-  font-weight: 600;
+  font-weight: 400;
+  font-size: var(--text-l);
 }
 .wpw-card-image{
   border-radius: 12px;
@@ -872,24 +913,28 @@ text-align: justify;
   .apply-container{
     overflow: hidden;
     border-radius: 24px;
-    background: linear-gradient(to right, #f8f2eb, transparent),
-    url(https://grainy-gradients.vercel.app/noise.svg);
+    background: url('/images/bg-gradient-top.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+    
     display: flex;
     flex-direction: row;
   }
 
   .apply-content{
     width: 49vw;
-    text-align: center;
+    text-align: right;
     padding: 40px;
     position: relative;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:end;
   }
   .apply-content p{
-    margin: 40px 0px 20px 0px;
+    font-size: var(--text-m);
+    margin: 10px 0px 20px 0px;
   }
 
   .apply-img{
@@ -952,7 +997,7 @@ background: white;
   object-fit: cover;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .cta-donate{
@@ -970,9 +1015,9 @@ background: white;
   border: 1px solid rgba(255, 255, 255, 0.1);
   
   }
-  .cta-donate h6{
+  .cta-donate h4{
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 .accordion-2{
   margin-top: 20px;
@@ -987,10 +1032,10 @@ background: white;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 22px;
   transition: 0.4s;
   border-radius: 12px;
-  font-weight: 700;
+  font-weight: 600;
 
 }
 
@@ -998,6 +1043,8 @@ background: white;
 .panel{
   font-weight: 400;
   padding: 0 18px;
+  font-size: 16px;
+
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;

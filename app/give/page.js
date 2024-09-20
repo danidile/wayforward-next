@@ -9,12 +9,12 @@ export default function Home() {
             <div className="apply-container">
                 <div className="apply-content">
                     <h1 className="apply-title">GIVE</h1>
-                    <h3>
-                        Give to support our Resident Support Teams boots on the ground.
-                    </h3>
+                    <h4>
+                        Give to support our Resident Support<br/> Teams boots on the ground.
+                    </h4>
                     <p>
                         Track your impact.
-                        Transform lives in communities you could never go to.
+                        Transform lives<br/>in communities you could never go to.
                     </p>
                     
                     <a href="https://www.google.com/url?q=https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c&sa=D&source=docs&ust=1726693158445325&usg=AOvVaw2CS_oQcMK_tjxvyBU40WBf" className="button-big">
@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
                 <div className="give-methods-container">
                         <div className="cta-donate">
-                            <h6>Methods to donate:</h6>
+                            <h4>Methods to donate:</h4>
                                 <button class="accordion">Grants: <img src="/images/right-arrow.png" className="accordian-arrow" />
                                     <div class="panel">
                                         <p>
