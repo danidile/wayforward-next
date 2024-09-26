@@ -3,10 +3,7 @@ import Script from "next/script";
 
 export default async function Home() {
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_WORDPRESS_API_URL}/custom_pages/76`);    
-    const data = await res.json();
-    console.log(data);
-
+    
     return (<>
         
           <Script src="/snippets/homePageSlider.js" type="text/javascript"/>
