@@ -51,7 +51,7 @@ export default function rst() {
                         click the button below to apply and start your journey!
                         </p>
                         
-                                <a className="button-big" href="/partner">
+                                <a className="button-big m-top-20" href="/partner">
                                     Let's partner  
                                 </a>
                                                           
@@ -67,11 +67,11 @@ export default function rst() {
                         click the button below to apply and start your journey!
                         </p>
                     </div>
-                    <img src="/images/rst1.jpg"/>
+                    <img src="/images/rst1.jpg" className="remove-on-mobile" />
 
                     </>
                     <>
-                    <img src="/images/map.jpg"/>
+                    <img className="remove-on-mobile" src="/images/map.jpg"/>
 
                     <div class="rst-content">
                         <h3>03.Move in</h3>
@@ -94,7 +94,7 @@ export default function rst() {
                         click the button below to apply and start your journey!
                         </p>
                     </div>
-                    <img src="/images/organizations.jpg"/>
+                    <img src="/images/organizations.jpg" className="remove-on-mobile" />
 
                     </>
                 
