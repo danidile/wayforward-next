@@ -59,6 +59,9 @@ slide2.onmouseover = slideLeft;
 slide3.onmouseenter = slideRight;
 slide4.onmouseenter = slideRight;
 
+arrowForward.addEventListener('click', slideRightOnClick);
+arrowBack.addEventListener('click', slideLeftOnClick);
+
 arrowForward.onclick = slideRightOnClick;
 arrowBack.onclick = slideLeftOnClick;
 
