@@ -160,6 +160,11 @@ small{
 .hamburger-container{
   display: none;
 }
+.ul-menu li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -329,27 +334,30 @@ border-top: 1px solid #cfc8c8;
 
 
 .button-big{
+  display:inline-block;
   color: var(--main-color-white);
   background: rgb(255,133,87);
   background: -moz-linear-gradient(342deg, rgba(255,133,87,1) 0%, rgba(215,79,36,1) 100%);
   background: -webkit-linear-gradient(342deg, rgba(255,133,87,1) 0%, rgba(215,79,36,1) 100%);
   background: linear-gradient(342deg, rgba(255,133,87,1) 0%, rgba(215,79,36,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8557",endColorstr="#d74f24",GradientType=1);
+  
   padding: 14px 30px;
+  
   border-radius: 4px;
   animation: 1s ease-in 1s;
   transition: 0.3s;
   font-weight: 400;
   box-shadow: 2px 2px 34px rgba(0, 0, 0, 0.1);
   position: relative;
-    z-index: 15;
-    top: 0px;
+  z-index: 15;
+  top: 0px;
 
 }
 
 
 .button-big:hover{
-top: -5px;
+top: 0px;
 }
 
 
@@ -587,6 +595,45 @@ margin: 5px 0px;
 
 
 
+.rst-section h2{
+text-align: center;
+margin: 50px auto;
+}
+.rst-section{
+
+  width: 95vw;
+
+}
+.rst-container {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 0px auto;
+  border: 1px solid var(--color-neutral);
+  background-image: url('/images/bg-grain-gradient-top.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+    border-radius: 24px;
+
+  }
+.rst-container img{
+  aspect-ratio: 5/3;
+object-fit: cover;
+width: 500px;
+margin: 0px 0px 0px auto;
+border-radius: 12px;
+
+}
+
+.rst-content {
+  max-width: 500px;
+  
+  }
 
 
 
