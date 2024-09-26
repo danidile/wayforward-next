@@ -17,9 +17,9 @@ export default async function Home() {
                 Impacting Communities
             </h1>
             <h6>
-            WayForward is a community of multi-housing owners, churches, and<br/>
-            organizations that aim to address these gaps by fostering meaningful <br/>
-            connections by bringing faith-driven action and engagement to the <br/>
+            WayForward is a community of multi-housing owners, churches, and
+            organizations that aim to address these gaps by fostering meaningful 
+            connections by bringing faith-driven action and engagement to the 
             forefront of community life. 
  
             </h6>
@@ -31,9 +31,9 @@ export default async function Home() {
             Leading the way in forming<br/>disciple-makers in every community. 
         </h5>
         <div class="impact-images">
-            <img src="/images/v1.jpg" alt=""/>
-            <img src="/images/v5.jpg" alt=""/>
-            <img src="/images/v3.jpg" alt=""/>
+            <img src="/images/v1.jpg" className="img-impact-1"/>
+            <img src="/images/v5.jpg" className="img-impact-2"/>
+            <img src="/images/v3.jpg" className="img-impact-3"/>
         </div>
 
     </div>

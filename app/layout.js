@@ -2,12 +2,13 @@ import "./globals.css";
 import NavBar from "./components/navigation";
 import Footer from "./components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import Script from "next/script";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
       <SpeedInsights/>
+      <Script src="/snippets/nav.js" type="text/javascript"/>
 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..300,0..1,-50..200" />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
