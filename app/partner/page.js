@@ -14,7 +14,7 @@ export default function Home() {
             <div class="partner-hero-content">
                 <div class="partner-hero-text">
                     <h1><span class="orange">WayForward</span> Partners</h1>
-                    <h6>Bringing real estate owners, churches, and organizations together to impact communities.</h6>
+                    <h5>Bringing real estate owners, churches, and organizations together to impact communities.</h5>
                 </div>
                 <img src="/images/rst3.jpg" class="partner-hero-img"/>
                 

@@ -5,6 +5,7 @@ import Script from "next/script";
 
 export default function Home() {
   return (<>
+   
     <div className="apply-section">
             <div className="apply-container">
                 <div className="apply-content">
