@@ -40,6 +40,7 @@ export default async function Home() {
             </h2>
             <h6>Some more numbers for you</h6>
             <div className="numbers-container">
+            
                 <div className="card-numbers">
                     <img src="/images/management.png" alt=""/>
                     <div>
@@ -96,7 +97,10 @@ export default async function Home() {
             <h2 className="title-how-we-work">How we work.</h2>
             <h6>Our method</h6>
             <div className="hww-container">
+                    <img src="/images/next.png" id="arrow-forward"/>
+                    <img src="/images/next.png" id="arrow-back"/>
                 <div className="slider-hww" id="hww-slider">
+                    
                     <div className="hww-slide" id="hww-slide-1">
                         <h1>01</h1>
                         <h6>We partner with Real Estate owners to make an eternal impact and Kingdom ROI.</h6>

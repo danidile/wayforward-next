@@ -270,6 +270,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
   object-position: bottom;
 
 }
+
+
+
+
+
+
+
+
+
+
 .numbers-container .divider{
 width: 55%;
 margin: 0px auto;
@@ -358,6 +368,7 @@ top: -5px;
   margin-top: 10vh;
   width: 100vw;
   overflow: hidden;
+  position: relative;
 }
 
 .slider-hww{
@@ -367,12 +378,33 @@ top: -5px;
   overflow: hidden;
   position: relative;
   left: 0px;
-
   transition: 0.3s;
-
-
 }
+#arrow-back{
+  display: none;
 
+  position: absolute;
+  z-index: 999;
+  width: 70px;
+  background-color: #ffffffcd;
+  border-radius: 100%;
+  padding: 15px;
+  top: 35%;
+  left: 25px;
+  transform: rotate(180deg);
+}
+#arrow-forward{
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 70px;
+  background-color: #ffffffcd;
+  border-radius: 100%;
+  padding: 10px;
+  top: 35%;
+  left: 90%;
+  
+}
 
 .hww-slide{
 
@@ -1011,7 +1043,6 @@ background: white;
 
 .give-methods-container{
   width: 49vw;
-  height: 40vw;
   object-fit: cover;
   display: flex;
   flex-direction: row;
@@ -1086,6 +1117,8 @@ background: white;
   justify-content:center;
   gap: 30px;
   padding: 50px 0px;
+  max-width: 90vw;
+  margin: 0px auto;
 }
 
 .mht-steps-section h2{
@@ -1148,6 +1181,7 @@ border-radius: 2px;
 .mht-steps-teacher{
   border-radius: 12px;
   align-self: stretch;
+  min-height: 250px;
   width: 500px;
   background-image: url("/images/jim.jpg");
   background-position: center; /* Center the image */
@@ -1166,6 +1200,11 @@ border-radius: 2px;
   @media screen and (max-width: 1100px) { 
     /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     
+
+
+
+
+
     h1{
       font-size: 3.815rem;
       font-weight: 500;
@@ -1244,7 +1283,7 @@ border-radius: 2px;
 
 
     .hero-section{
-      padding: 15vh 3vh;
+      padding: 12rem 2rem;
     }
 
     .hero-section h1{
@@ -1276,10 +1315,43 @@ border-radius: 2px;
         width: 100%;
         height: 100%;
       }
+
+
+      .slider-hww{
+        width: 178vw;
+
+      }
+      
+      
+      .hww-slide{
+      
+        width: 44vw;
+
+      }
     
+
+
+
+      #arrow-back{
+        display: block;
+
+      }
+      #arrow-forward{
+        display: block;
+
+        
+      }
 }
 
+@media screen and (max-width: 950px) { 
+  .mht-steps-container{
+    flex-direction: column;
+}
+.mht-steps-teacher{
+width: auto;
 
+}
+}
 
     @media screen and (max-width: 750px) { 
       h1{
@@ -1335,6 +1407,19 @@ border-radius: 2px;
           .numbers-container .divider-vertical-bottom{
             display: none;
 
+            }
+
+
+            .slider-hww{
+              width: 350vw;
+      
+            }
+            
+            
+            .hww-slide{
+            
+              width: 85.5vw;
+      
             }
 }
 @media screen and (max-width: 550px) { 
