@@ -145,6 +145,7 @@ margin-top: 20px;
   flex-direction: row;
   color: black;
 }
+
 .menu-img-container{
   flex-grow: 1;
   display: flex;
@@ -1307,8 +1308,20 @@ border-radius: 2px;
     }
 
 
-
-
+    .menu-box{
+      position: absolute;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      top: 0px;
+      left: 0px;
+    }
+    .menu-container{
+      width: 100vw;
+    }
+    .menu-top-space-mobile{
+      height:8vh;
+    }
 
     .ul-menu{
       gap: 25px ;

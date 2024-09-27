@@ -1,11 +1,14 @@
 
 export default function NavBar() {
   return (
-    
+    <>
+    <div class="menu-top-space-mobile"></div>
+    <div class="menu-box">
             <div className="menu-container">
                 <div className="menu-img-container">
                     <img  className="menu-logo"  src="/images/WF-Logo.png" alt=""></img>
                 </div>
+                
                 <div className="menu-list-container">
                     <ul className="ul-menu">
                         <li><a href="/">Home</a></li>
@@ -26,7 +29,10 @@ export default function NavBar() {
                 <div class="hamburger-container">
                     <img src="/images/menu.png" id="menu-burger"/>
                 </div>
+                
             </div>
+</div>
+</>
             
         );
 }
