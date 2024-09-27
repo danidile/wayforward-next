@@ -11,20 +11,14 @@ export default async function Home() {
     <div className="hero-section ">
             <div className="hero-gradient"></div>
             <h1>
-                Impacting Communities
+                Impacting <br/>Communities
             </h1>
-            <h6>
-            WayForward is a community of multi-housing owners, churches, and
-            organizations that aim to address these gaps by fostering meaningful 
-            connections by bringing faith-driven action and engagement to the 
-            forefront of community life. 
- 
-            </h6>
+            
 
     </div>
 
     <div class="impact-section">
-        <h5>
+        <h5> 
             Leading the way in forming<br/>disciple-makers in every community. 
         </h5>
         <div class="impact-images">
@@ -38,13 +32,18 @@ export default async function Home() {
             <h2>
                 Why Multi-Housing? 
             </h2>
-            <h6>Some more numbers for you</h6>
             <div className="numbers-container">
-            
+            <h6>
+            WayForward is a community of multi-housing owners, churches, and
+            organizations that aim to address these gaps by fostering meaningful 
+            connections by bringing faith-driven action and engagement to the 
+            forefront of community life. 
+ 
+            </h6>
                 <div className="card-numbers">
                     <img src="/images/management.png" alt=""/>
                     <div>
-                        <h5>Living situation</h5>
+                        <h5>Living </h5>
                         <p>
                             Today 37% of the U.S. population live in some form of multi-housing. 
                         </p>
@@ -54,7 +53,7 @@ export default async function Home() {
                 <div className="card-numbers">
                     <img src="/images/alone.png" alt=""/>
                     <div>
-                        <h5>Community</h5>
+                        <h5>Isolation</h5>
                         <p>
                             On average, 1 in 3 people struggle with loneliness.  
                         </p>
@@ -64,7 +63,7 @@ export default async function Home() {
                 <div className="card-numbers">
                     <img src="/images/church.png" alt=""/>
                     <div >
-                        <h5>Church attendency</h5>
+                        <h5>Community</h5>
                         <p>
                             Up to 98% of multi-housing residents are unengaged or unchurched. 
                         </p>
@@ -77,7 +76,7 @@ export default async function Home() {
                     <div >
                         <h5>Action</h5>
                         <p>
-                            Only 6% of Christians actively integrate their faith with action.
+                            Only 6% of Christians actively integrate their beliefs with their behavior.
                         </p>
                     </div>
                 </div>
@@ -115,7 +114,7 @@ export default async function Home() {
                     </div>
                     <div className="hww-slide" id="hww-slide-2">
                         <h1>02</h1>
-                        <h6>We partner with Real Estate owners to make an eternal impact and Kingdom ROI.</h6>
+                        <h6>We place Resident Support Teams in our partners multi-housing communities.</h6>
                         <div className="learn-more">
                             <p>
                                 Learn more
@@ -127,7 +126,7 @@ export default async function Home() {
                     </div>
                     <div className="hww-slide" id="hww-slide-3">
                         <h1>03</h1>
-                        <h6>We partner with Real Estate owners to make an eternal impact and Kingdom ROI.</h6>
+                        <h6>We holistically train & form disciple-makers who make disciples of Jesus.</h6>
                         <div className="learn-more">
                             <p>
                                 Learn more
@@ -139,7 +138,7 @@ export default async function Home() {
                     </div>
                     <div className="hww-slide" id="hww-slide-4">
                         <h1>04</h1>
-                        <h6>We partner with Real Estate owners to make an eternal impact and Kingdom ROI.</h6>
+                        <h6>We mobilize Churches to effectively reach their neighboring multi-housing communities.</h6>
                         <div className="learn-more">
                             <p>
                                 Learn more

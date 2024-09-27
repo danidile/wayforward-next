@@ -11,7 +11,6 @@ export default function NavBar() {
                         <li><a href="/">Home</a></li>
                         <li><a href="/multi-housing-training">Multi-Housing Training</a></li>
                         <li><a href="/give">Donate</a></li>
-                        <li><a href="">Training</a></li>
                         <li>
                             <a href="/partner" className="button-bigç">
                                 Let's Partner
