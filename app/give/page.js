@@ -6,26 +6,44 @@ import Script from "next/script";
 export default function Home() {
   return (<>
    
+   <div className="rst-section">     
+                <div class="box-container">
+                    <div class="box-content">
+                        <h4>How can we reach the ends of the earth,
+                            If we don’t reach our neighborhoods first?
+                        </h4>
+                        
+                        <p>
+                        DONATE - Support Teams in local communities.<br/>
+                        PRAY - Change lives you could never reach otherwise. <br/>
+                        STAY INFORMED - Track your impact month to month. 
+                        </p>
+                        <a href="/rst" className="button-big">
+                                Become an RST
+                        </a>
+                    </div>
+                    
+                
+                </div>      
+
+       </div>
+
+
     <div className="apply-section">
             <div className="apply-container">
-                <div className="apply-content">
-                    <h1 className="apply-title">GIVE</h1>
-                    <h4>
-                        Give to support our Resident Support<br/> Teams boots on the ground.
-                    </h4>
-                    <p>
-                        Track your impact.
-                        Transform lives<br/>in communities you could never go to.
-                    </p>
-                    
-                    <a href="https://www.google.com/url?q=https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c&sa=D&source=docs&ust=1726693158445325&usg=AOvVaw2CS_oQcMK_tjxvyBU40WBf" className="button-big">
-                        <div>
-                            Donate now
-                        </div>
-                    </a>
-                          
-                </div>
+                
                 <div className="give-methods-container">
+                                <div className="apply-content">
+                                    <h4>
+                                        Give to support our Resident Support<br/> Teams boots on the ground.
+                                    </h4>
+                                    <p>
+                                        Track your impact.
+                                        Transform lives in communities you could never go to.
+                                    </p>
+
+                                </div>
+                                    
                         <div className="cta-donate">
                             <h4>Methods to donate:</h4>
                                 <button class="accordion">Grants: <img src="/images/right-arrow.png" className="accordian-arrow" />
