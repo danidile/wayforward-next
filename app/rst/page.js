@@ -18,8 +18,6 @@ export default function rst() {
                             Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
                         </p>
                     </div>
-                    
-                
                 </div>      
 
        </div>
@@ -60,12 +58,7 @@ export default function rst() {
                     <>
                     <div class="rst-content">
                         <h3>02.Get Trained</h3>
-                        <h6>
-                        Apply today!
-                        </h6>
-                        <p>
-                        click the button below to apply and start your journey!
-                        </p>
+                        
                     </div>
                     <img src="/images/rst1.jpg" className="remove-on-mobile" />
 

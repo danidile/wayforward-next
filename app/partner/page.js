@@ -16,7 +16,6 @@ export default function Home() {
                     <h1><span class="orange">WayForward</span> Partners</h1>
                     <h5>Bringing real estate owners, churches, and organizations together to impact communities.</h5>
                 </div>
-                <img src="/images/rst3.jpg" class="partner-hero-img"/>
                 
                 
             </div>
@@ -28,8 +27,8 @@ export default function Home() {
                     <h2 class="h2-wpw-card">01</h2>
                     <img src="/images/multi1.jpg"  class="wpw-card-image"/>
                     <div class="wpw-text-container">
-                        <h4>Multi-House Owners</h4>
-                        <h6>WayForward provides value to RE Owners through resident engagement and staff satisfaction.</h6>
+                        <h4>Multi-Housing Owners</h4>
+                        <h6>WayForward provides value to Real Estate Owners and management companies through impact, engagement and satisfaction.</h6>
                     </div>
                 </div>
                 <div class="wpw-card">
@@ -57,7 +56,7 @@ export default function Home() {
             <div className="values-cards">
                 <div className="values-card"><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
                 <div className="values-card"><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
-                <div className="values-card"><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit. </p></div>
+                <div className="values-card"><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit in every sphere of life. </p></div>
                 <div className="values-card"><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
                 <div className="values-card"><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div> 
             </div>

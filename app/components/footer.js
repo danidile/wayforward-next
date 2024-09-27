@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         <div className="footer-column2">
             <ul className="footer-menu-li">
-                <li><b>MULTI-HOUSE TRAINING</b></li>
+                <li><b>MULTI-HOUSING TRAINING</b></li>
                 <li>Resident Support Team</li>
                 <li>Churches</li>
             </ul>

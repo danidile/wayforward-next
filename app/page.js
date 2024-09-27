@@ -171,11 +171,11 @@ export default async function Home() {
             <div className="cta-content">
                 <div className="cta-left">
                     <h2>Join WayForward</h2>
-                    <h5>Impact your Community.</h5>
+                    <h5>Impacting Communities</h5>
                 </div>
                 <div className="cta-right">
                     <a href="/rst.html" className="button-3">Become An RST</a>
-                    <a href="/rst.html" className="button-3">Partner</a>
+                    <a href="/rst.html" className="button-3">Become a Partner</a>
                 </div>
             </div>
         </div>

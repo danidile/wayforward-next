@@ -188,7 +188,7 @@ margin-top: 20px;
   position: relative;
   z-index: 0;
   padding: 20vh 9rem;
-  background-image: url('/images/Cover.webp');
+  background-image: url('/images/Cover.jpg');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
