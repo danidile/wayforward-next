@@ -348,28 +348,20 @@ border-top: 1px solid #cfc8c8;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8557",endColorstr="#d74f24",GradientType=1);
   
   padding: 14px 30px;
-  
+  margin: 5px;
   border-radius: 4px;
   animation: 1s ease-in 1s;
   transition: 0.3s;
   font-weight: 400;
   box-shadow: 2px 2px 34px rgba(0, 0, 0, 0.1);
   position: relative;
-  z-index: 15;
   top: 0px;
 
 }
 
 
 .button-big:hover{
-top: 0px;
-}
-
-
-
-.button-big h6{
-  font-weight: 500;
-
+top: -5px;
 }
 .how-we-work-section{
   display: flex;
@@ -1339,6 +1331,7 @@ border-radius: 2px;
       font-weight: 600;
       text-align: center;
       letter-spacing: -0.5px;
+      z-index: 20;
     }
     .hero-section{
       margin-top: 0px;
