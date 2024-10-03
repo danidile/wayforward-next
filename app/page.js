@@ -9,7 +9,6 @@ export default async function Home() {
           <Script src="/snippets/homePageSlider.js" type="text/javascript"/>
 
     <div className="hero-section ">
-            <div className="hero-gradient"></div>
             <h1>
                 Impacting <br/>Communities
             </h1>
@@ -23,7 +22,7 @@ export default async function Home() {
         </h5>
         <div class="impact-images">
             <img src="/images/v1.jpg" className="img-impact-1"/>
-            <img src="/images/v5.jpg" className="img-impact-2"/>
+            <img src="/images/v8.jpg" className="img-impact-2"/>
             <img src="/images/v3.jpg" className="img-impact-3"/>
         </div>
 
@@ -33,13 +32,7 @@ export default async function Home() {
                 Why Multi-Housing? 
             </h2>
             <div className="numbers-container">
-            <h6>
-            WayForward is a community of multi-housing owners, churches, and
-            organizations that aim to address these gaps by fostering meaningful 
-            connections by bringing faith-driven action and engagement to the 
-            forefront of community life. 
- 
-            </h6>
+            
                 <div className="card-numbers">
                     <img src="/images/management.png" alt=""/>
                     <div>
@@ -80,6 +73,10 @@ export default async function Home() {
                         </p>
                     </div>
                 </div>
+
+                <h6>
+                    WayForward partners with multi-housing owners, churches, and organizations to address disconnected and unengaged communities by fostering meaningful connections and engagement through faith-driven initiative.
+                </h6>
                 
             </div>
             <a href="" className="button-big">

@@ -21,7 +21,9 @@
   }
 }
 
-
+html {
+  scroll-behavior: smooth; 
+}
 
 
 body {
@@ -74,6 +76,7 @@ a{
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+
   }
 }
 
@@ -167,10 +170,35 @@ margin-top: 20px;
   display: none;
 }
 .ul-menu li{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+margin: auto;
+
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  min-width: 200px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: black;
+  border-top: 1px solid rgb(220, 220, 220);
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
 
 
 
@@ -189,7 +217,7 @@ margin-top: 20px;
   position: relative;
   z-index: 0;
   padding: 20vh 9rem;
-  background-image: url('/images/Cover.jpg');
+  background-image: url('/images/cv1.webp');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -283,6 +311,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
 
 
+.numbers-container h6{
+  padding: 4rem 1rem 0rem 1rem;
+  text-align: center;
+
+}
 
 
 
@@ -447,7 +480,7 @@ scale: 1.02;
 
 
 #hww-slide-1{
-background-image: url('/images/Slider/slider-1.jpg');
+background-image: url('/images/v9.jpg');
 }
 #hww-slide-2{
   background-image: url('/images/Slider/slider-2.jpg');
@@ -661,6 +694,7 @@ border-radius: 12px;
 
 }
 
+
 .rst-hero-image{
   border-radius: 12px;
   position: center; /* Center the image */
@@ -852,7 +886,7 @@ z-index: 1;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-between;
 }
 
 
@@ -868,8 +902,23 @@ z-index: 1;
 }
 .h2-wpw-card{
 margin-right: 1rem;
+width: 50px;
 }
 
+.wpw-arrow{
+  width: 50px;
+  height: 50px;
+  transform: rotate(-135deg);
+  transition: 0.3s;
+
+}
+
+.wpw-arrow:hover{
+  width: 55px;
+  height: 55px;
+  transform: rotate(-90deg);
+  
+}
 
 
 
@@ -1155,6 +1204,7 @@ background: white;
 .steps-ul{
   display: flex;
   flex-direction: column;
+  max-width: 600px;
 }
 
 
@@ -1242,13 +1292,96 @@ border-radius: 2px;
 
 
 
+.churches-section{
+  width: 98vw;
+  height: 50vh;
+  color: #ffffff;
+  margin: 1vw;
+  border-radius: 12px;
+  position: relative;
+  overflow:hidden;
+  background-image: url('/images/church-black.webp');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vh;
+
+}
+.churches-content{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+
+.mho-section{
+  width: 98vw;
+  height: 50vh;
+  color: #ffffff;
+  margin: 1vw;
+  border-radius: 12px;
+  position: relative;
+  overflow:hidden;
+  background-image: url('/images/mhh.webp');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vh;
+
+}
+.mho-content{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+.mho-content h3{
+  font-weight: 400;
+}
 
 
 
 
 
 
+  .testimonial-section{
+  margin: 0px auto;
+    width: 95vw;
+    margin-top: 50px;
+  }
+  .testimonial-container{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    max-width: 1200px;
+    margin: 0px auto;
+    border: 1px solid var(--color-neutral);
+    background-image: url('/images/bg-grain-gradient-top.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 24px;
+    position: relative;  
 
+  
+    }
+    .testimonial-containt{
+      margin: 4rem;
+    }
+.testimonial-container img{
+position: absolute;  
+top: -20px;
+left: -20px;
+width: 100px;
+  }
+.testimonial-content p{
+      text-align: justify;
+
+      
+}
+  
 
 
 
@@ -1277,16 +1410,16 @@ border-radius: 2px;
 
     h1{
       font-size: 3.815rem;
-      font-weight: 500;
+      font-weight: 400;
     }
     h2{
       font-size: 3.052rem;
-      font-weight: 600;
+      font-weight: 400;
       
     }
     h3{
       font-size: 2.441rem;
-      font-weight: 600;
+      font-weight: 400;
       
     }
     h4{
@@ -1359,6 +1492,10 @@ border-radius: 2px;
       width: 40px;
     }
 
+    .wpw-arrow{
+      display: none;
+    }
+
 
     .apply-section{
       width: 95vw;
@@ -1388,6 +1525,7 @@ border-radius: 2px;
       padding: 3rem 3rem;
 
     }
+   
     .cta-section{
       height: auto;
       padding-bottom: 50px;

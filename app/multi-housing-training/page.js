@@ -19,12 +19,13 @@ export default function Home() {
             </div>
             <div class="step-text">
               <h6>
-                Vision cast with pastor or director
+                Vision cast
               </h6>
               <p class="steps-duration">
                 30-60 Min
               </p>
-              p.step-description
+              WayForward meets with church pastor / program director to discuss the churches vision and potential alignment / interest with multi-housing ministry
+
             </div>
           </li>
           <li class="steps-li">
@@ -34,12 +35,12 @@ export default function Home() {
             </div>
             <div class="step-text">
               <h6>
-                Preliminary and planning meeting
+                Preliminary Planning Meeting
               </h6>
               <p class="steps-duration">
-                30-60 Min
+                50-60 Min
               </p>
-              p.step-description
+                Follow-up meeting to discuss training and event details
             </div>
           </li>
           <li class="steps-li">
@@ -49,11 +50,11 @@ export default function Home() {
             </div>
             <div class="step-text">
               <h6>
-                Set dates for gospel conversation training & apartment training
+              Set Training Dates
               </h6>
               <p class="steps-duration">
               </p>
-              p.step-description
+                Establish 2 training dates (Gospel Conversation & Multi-Housing Training)
             </div>
           </li>
           <li class="steps-li">
@@ -63,12 +64,12 @@ export default function Home() {
             </div>
             <div class="step-text">
               <h6>
-              Gospel conversation training
+              Gospel Conversation Training
               </h6>
               <p class="steps-duration">
                 7 Hours
               </p>
-              p.step-description
+                Church-wide training intensive
             </div>
           </li>
           <li class="steps-li">
@@ -78,12 +79,12 @@ export default function Home() {
             </div>
             <div class="step-text">
               <h6>
-                Apt training intensive for staff lead and Apt missionaries
+              Multi-Housing Training 
               </h6>
               <p class="steps-duration">
                 7 Hours
               </p>
-              p.step-description
+              Training intensive targeting multi-housing missionaries and staff leader(s).
             </div>
           </li>
           <li class="steps-li">
@@ -93,12 +94,12 @@ export default function Home() {
             </div>
             <div class="step-text">
               <h6>
-                Quarterly iron on iron calls offered
+              Quarterly Iron-On-Iron calls offered 
               </h6>
               <p class="steps-duration">
                 60-90 Min
               </p>
-              p.step-description
+              WayForward offers ongoing support to teams
             </div>
           </li>
           

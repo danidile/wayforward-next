@@ -6,49 +6,78 @@ import Script from "next/script";
 export default function Home() {
   return (<>
 
-    <div className="rst-hero-container">
+    <div className="mho-section">
            
-           <img src="/images/rst.jpg" className="rst-hero-image"></img>
-           <div className="rst-hero-content">
-               <h1>Resident Support Team</h1>
-               <h6>
-                   Join hundreds of people impacting their local communities. 
-               </h6>
-               <p>
-                   Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
-               </p>
-               <button href="/rst.html"className="button-1">Get started</button>
+           <div className="mho-content">
+                <h3>
+                WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
+
+                </h3>
+           
+                <a className="button-big m-top-20" href="#mht-steps-section">
+                    View RoadMap 
+                </a>
                
            </div>
            
        </div>
-       <div className="fc-section">
-               <div className="fc-content">
-                   <h2>Our 5 C’s:</h2>
-                   <ul>
-                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
-                       <li>Connect residents to local resources and point them to social services</li>
-                       <li>Celebrate with events-with-intent</li>
-                       <li>Community engagement for residents</li>
-                       <li>Calling people to do the same</li>
-                   </ul>
-               </div>
-       </div>
-       <div className="values-cards-section">
-        <div className="values-cards">
-        <div className="values-card"><img className="vc-image" src="/images/vc-1.jpg" /><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-2.jpg" /><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-3.jpg" /><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit. </p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-4.jpg" /><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
-        <div className="values-card"><img className="vc-image" src="/images/vc-5.jpg" /><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div>
         
-        </div>
+       <div className="rst-section">     
+                <div class="box-container">
+                    <div class="box-content">
+                        <h4>Impact / Engagement / Satisfaction</h4>
+                        
+                        <p>
+                        94-98% of people in multi-housing communities are not connected to a faith family. That means only 2-6% of residents are Christians engaging their properties with Churches. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people. <br/>
+
+                        Most Christian Real Estate owners and operators also are not pursuing any Kingdom Impact with their companies.<br/><br/>
+
+                        WayForward helps owners and operators rethink a new bottom line for their company by placing Resident Support Teams on site to engage their neighbors and solve these issues with faith-driven initiatives. <br/>
+
+                        </p>
+                        <br/>
+                        <br/>
+                        <p><strong>Contact Us to have WayForward at your properties.</strong></p>
+                        <a href="/rst" className="button-big">
+                                Contact Us
+                        </a>
+                    </div>
+                    
+                
+                </div>      
+
        </div>
 
+      <div className="testimonial-section">     
+            <div class="testimonial-container">
+            <img src="/images/testimonial2.png" alt=""/>
 
+                <div class="testimonial-content">
+                        <h5><strong>Property Manager</strong></h5>
+                        <br/>
+                        <p>
+                        <i> 
+                        “I like having WayForward on-site as they are always positive, energetic, and provide support. They have organized events for residents creating a warm space for residents to get to know each other and coexist. My experience working with them has been nothing but uplifting.”                         </i>
+                        </p>
+                </div>
+            </div>      
 
+       </div>
+       <div className="testimonial-section">     
+            <div class="testimonial-container">
+                <img src="/images/testimonial.png" alt=""/>
+                <div class="testimonial-content">
+                        <h5><strong>StoneSteps Real Estate</strong></h5>
+                        <br/>
+                        <p>
+                        <i>
+                        “The WayForward team placed at our apartment complex has been a tremendous help to our onsite staff through planning resident events, greeting new move-ins, and increasing renewal percentages. The WayForward team’s work not only is helping the property financially, but also helping minister, care , and support residents.”
+                        </i>
+                        </p>
+                </div>
+            </div>      
 
-       <Script  src="/snippets/rst.js" />
-
+       </div>
+      
   </>);
 }

@@ -12,7 +12,16 @@ export default function NavBar() {
                 <div className="menu-list-container">
                     <ul className="ul-menu">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/multi-housing-training">Multi-Housing Training</a></li>
+                        <li className="dropbtn dropdown">
+                            <a className="dropbtn" href="/multi-housing-training">
+                                Multi-Housing Training
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="/rst">RST</a>
+                                <a href="/churches">Churches</a>
+                                <a href="/multi-housing-owners">Multi Housing Owners</a>
+                            </div>
+                        </li>
                         <li><a href="/give">Donate</a></li>
                         <li>
                             <a href="/partner" className="button-bigç">
