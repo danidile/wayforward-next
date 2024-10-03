@@ -18,31 +18,13 @@ export default function Footer() {
             </ul>
             <ul className="footer-menu-li">
                 <li><b>PARTNERS</b></li>
+                <li>Multi Housing Owners</li>
                 <li>Church</li>
                 <li>Organization</li>
             </ul>
-            <ul className="footer-menu-li">
-                <li><b>HOME</b></li>
-                <li>Church</li>
-                <li>Organization</li>
-            </ul>
+            
         </div>
-        <div className="footer-column3">
-            <ul className="footer-menu-li">
-                <li><b>FOLLOW US</b></li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-            </ul>
-            <ul className="footer-menu-li">
-                <li><b>RESOURCES</b></li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-            </ul>
-        </div>
+        
     </div>
 </footer>
             

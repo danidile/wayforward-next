@@ -13,7 +13,7 @@ export default function NavBar() {
                     <ul className="ul-menu">
                         <li><a href="/">Home</a></li>
                         <li className="dropbtn dropdown">
-                            <a className="dropbtn" href="/multi-housing-training">
+                            <a className="dropbtn">
                                 Multi-Housing Training
                             </a>
                             <div class="dropdown-content">

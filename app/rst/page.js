@@ -25,11 +25,11 @@ export default function rst() {
                <div className="fc-content">
                    <h2>Our 5 C’s:</h2>
                    <ul>
-                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
-                       <li>Connect residents to local resources and point them to social services</li>
-                       <li>Celebrate with events-with-intent</li>
-                       <li>Community engagement for residents</li>
-                       <li>Calling people to do the same</li>
+                       <li><strong>C</strong>are for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
+                       <li><strong>C</strong>onnect residents to local resources and point them to social services</li>
+                       <li><strong>C</strong>elebrate with events-with-intent</li>
+                       <li><strong>C</strong>ommunity engagement for residents</li>
+                       <li><strong>C</strong>alling people to do the same</li>
                    </ul>
                </div>
        </div>
@@ -39,7 +39,7 @@ export default function rst() {
 
                 <div class="rst-container">
                     <>
-                    <img src="/images/church.jpg"/>
+                    <img src="/images/apply.jpg"/>
                     <div class="rst-content">
                         <h3>01.APPLY</h3>
                         <h6>
@@ -60,11 +60,11 @@ export default function rst() {
                         <h3>02.Get Trained</h3>
                         
                     </div>
-                    <img src="/images/rst1.jpg" className="remove-on-mobile" />
+                    <img src="/images/study.jpg" className="remove-on-mobile" />
 
                     </>
                     <>
-                    <img className="remove-on-mobile" src="/images/map.jpg"/>
+                    <img className="remove-on-mobile" src="/images/movinin.jpg"/>
 
                     <div class="rst-content">
                         <h3>03.Move in</h3>

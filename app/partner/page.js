@@ -57,7 +57,7 @@ export default function Home() {
         <div className="values-cards-section">
         <h2>WayForward Values</h2>
         <div class="values-container">
-            <img src="/images/vc1.jpg" alt=""/>
+            
             <div className="values-cards">
                 <div className="values-card"><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
                 <div className="values-card"><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>

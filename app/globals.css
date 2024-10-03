@@ -577,12 +577,11 @@ color: black;
 footer{
 background: linear-gradient(#dedede00, #cfc8c8);
 padding: 1vw;
-height: 600px;
 
 }
 .footer-container{
 margin: 40px auto;
-max-width: 1500px;
+max-width: 1100px;
 display: flex;
 flex-direction: row;
 text-align: center;
@@ -593,19 +592,16 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-width: 40%;
+width: 50%;
 height: 100%;
 }
 
 .footer-column2{
 list-style: none;
 height: 100%;
-width: 30%;
+width: 50%;
 }
-.footer-column3{
-height: 100%;
-width: 30%;
-}
+
 .footer-logo{
 width: 200px;
 }
@@ -616,7 +612,7 @@ font-size: 16px;
 .footer-menu-li{
 margin: 30px 0px;
 list-style: none;
-text-align: left;
+text-align: center;
 }
 .footer-menu-li li{
 margin: 5px 0px;
@@ -741,8 +737,11 @@ z-index: 1;
   padding: 7vh;
 
 
-}
 
+}
+.fc-content ul{
+display: inline-block
+}
 .fc-content h2{
   margin-bottom: 30px;
 }
@@ -755,7 +754,13 @@ z-index: 1;
   position: relative;
 	outline: none !important;
 	transition: 0.2s;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #cacaca;
+  transition: 0.3s;
 
+}
+.fc-content li:hover{
+  background-color: rgba(255, 255, 255, 0.212);
 }
 
 .fc-content{
@@ -922,22 +927,30 @@ width: 50px;
 
 
 
+.values-cards-section h6{
+  text-align: center;  
+}
+
+
 .values-cards-section h2{
-  text-align: center;
-  padding: 50px 0px;
-  
+  text-align: center;  
+  margin: 2rem 0px;
+
 }
 
 .values-cards{
   gap: 10px;
-  
+  margin: 0px auto;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   transition: grid-template-rows 0.5s;
-  width: 50%;
+  max-width: 50%;
   padding-left: 3rem;
+
+
   
 }
 
@@ -950,6 +963,7 @@ width: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-size: cover;
 
 }
 .values-container img{
@@ -967,9 +981,9 @@ width: 50px;
   transition: grid-template-rows 0.5s;
   position: relative;
   border-radius: 12px;
-  background-image: url('/images/bg-grain-gradient-top.jpg');
   border: 1px solid #cfc8c8;
   background-size: cover;
+  background-color: #e7e0dc;
 
 }
 
@@ -1509,7 +1523,7 @@ width: 100px;
     }
 
     .hero-section{
-      padding: 12rem 2rem;
+      padding: 6rem 2rem;
     }
 
     .hero-section h1{
@@ -1565,7 +1579,7 @@ width: 100px;
       }
       #arrow-forward{
         display: block;
-
+        left: 80%;
         
       }
       .wpw-card-image{
@@ -1588,6 +1602,9 @@ width: 100px;
 
       .footer-container{
         flex-direction: column;
+      }
+      .footer-column1{
+        width: 100%;
       }
       .footer-column2{
         text-align: center;
@@ -1672,9 +1689,13 @@ display: none;}
       .img-impact-1{
         display: none;
       }
+      .impact-section{
+        padding: 2rem 2rem;
+      }
       .impact-section h5{
         margin-right: 0px;
-        text-align: center;
+        text-align: justify;
+        
 
       }
       .card-numbers{
