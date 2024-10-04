@@ -25,11 +25,11 @@ export default function rst() {
                <div className="fc-content">
                    <h2>Our 5 C’s:</h2>
                    <ul>
-                       <li><strong>C</strong>are for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
-                       <li><strong>C</strong>onnect residents to local resources and point them to social services</li>
-                       <li><strong>C</strong>elebrate with events-with-intent</li>
-                       <li><strong>C</strong>ommunity engagement for residents</li>
-                       <li><strong>C</strong>alling people to do the same</li>
+                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
+                       <li>Connect residents to local resources and point them to social services</li>
+                       <li>Celebrate with events-with-intent</li>
+                       <li>Community engagement for residents</li>
+                       <li>Calling people to do the same</li>
                    </ul>
                </div>
        </div>
@@ -49,9 +49,8 @@ export default function rst() {
                         click the button below to apply and start your journey!
                         </p>
                         
-                                <a className="button-big m-top-20" href="/partner">
-                                    Let's partner  
-                                </a>
+                                <a className="button-big m-top-20" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
+                                Apply Here                                </a>
                                                           
                     </div>
                     </>
@@ -68,24 +67,14 @@ export default function rst() {
 
                     <div class="rst-content">
                         <h3>03.Move in</h3>
-                        <h6>
-                        Apply today!
-                        </h6>
-                        <p>
-                        click the button below to apply and start your journey!
-                        </p>
+                        
                     </div>
 
                     </>
                     <>
                     <div class="rst-content">
                         <h3>04.Impact</h3>
-                        <h6>
-                        Apply today!
-                        </h6>
-                        <p>
-                        click the button below to apply and start your journey!
-                        </p>
+                        
                     </div>
                     <img src="/images/organizations.jpg" className="remove-on-mobile" />
 

@@ -19,12 +19,11 @@ export default function NavBar() {
                             <div class="dropdown-content">
                                 <a href="/rst">RST</a>
                                 <a href="/churches">Churches</a>
-                                <a href="/multi-housing-owners">Multi Housing Owners</a>
                             </div>
                         </li>
                         <li><a href="/give">Donate</a></li>
                         <li>
-                            <a href="/partner" className="button-bigç">
+                            <a href="/partner" className="button-big">
                                 Let's Partner
                             </a>
                         </li>

@@ -91,7 +91,6 @@ export default async function Home() {
 
         <div className="how-we-work-section">
             <h2 className="title-how-we-work">How we work.</h2>
-            <h6>Our method</h6>
             <div className="hww-container">
                     <img src="/images/next.png" id="arrow-forward"/>
                     <img src="/images/next.png" id="arrow-back"/>

@@ -217,7 +217,7 @@ margin: auto;
   position: relative;
   z-index: 0;
   padding: 20vh 9rem;
-  background-image: url('/images/cv1.webp');
+  background-image: url('/images/cta-bg3.jpg');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -784,8 +784,7 @@ display: inline-block
 
 
 .circle-partner{
-  font-weight: 800;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 100%;
   border: 2px dotted hsl(16, 75%, 80%);
   background-color: #ff845710;
@@ -798,10 +797,16 @@ display: inline-block
   text-align: center;
   transition: 0.3s;
 }
+.circle-title{
+  transition: 0.5s;
+  color: hsl(16, 63%, 67%);
+
+opacity: 0;  }
+
+
 
 .circle-partner:hover{
   transition: 0.3s;
-  font-weight: 800;
   font-size: 14px;
   border-radius: 100%;
   border: 2px dotted hsl(16, 75%, 80%);
@@ -824,7 +829,7 @@ display: inline-block
 
   top: -0vh;
 
-  left: 30vw;
+  left: 40vh;
   z-index: 1;
 
 
@@ -832,7 +837,7 @@ display: inline-block
 .circle-O{
  
   top: 30vh;
-  left: 15vw;
+  left: 20vh;
   z-index: 0;
 
 
@@ -983,7 +988,8 @@ width: 50px;
   border-radius: 12px;
   border: 1px solid #cfc8c8;
   background-size: cover;
-  background-color: #e7e0dc;
+  background-image: url('/images/bg-grain-gradient-top.jpg');
+  background-position: center;
 
 }
 
