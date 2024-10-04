@@ -1599,9 +1599,13 @@ body{
 
       }
       .rst-content{max-width: 100%;}
-      .box-container {
-        padding: 2rem;}
 
+      .box-container {
+        padding: 2rem 0rem;
+      }
+      .box-content p{
+        text-align: justify;
+      }
       .footer-container{
         flex-direction: column;
       }
