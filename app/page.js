@@ -79,11 +79,7 @@ export default async function Home() {
                 </h6>
                 
             </div>
-            <a href="" className="button-big">
-                <div>
-                    Let's partner
-                </div>
-            </a>
+            
         </div>
 
     
@@ -170,8 +166,8 @@ export default async function Home() {
                     <h5>Impacting Communities</h5>
                 </div>
                 <div className="cta-right">
-                    <a href="/rst.html" className="button-3">Become An RST</a>
-                    <a href="/rst.html" className="button-3">Become a Partner</a>
+                    <a href="/rst" className="button-3">Become A RST</a>
+                    <a href="/partner" className="button-3">Become a Partner</a>
                 </div>
             </div>
         </div>
