@@ -95,50 +95,58 @@ export default async function Home() {
                     <div className="hww-slide" id="hww-slide-1">
                         <h1>01</h1>
                         <h6>We partner with Real Estate owners to make an eternal impact and Kingdom ROI.</h6>
-                        <div className="learn-more">
-                            <p>
-                                Learn more
-                            </p> 
-                            <span className="material-symbols-outlined">
-                                arrow_right_alt
-                            </span>
-                        </div>
+                        <a href="/multi-housing-owners">
+                            <div className="learn-more">
+                                <p>
+                                    Learn more
+                                </p> 
+                                <span className="material-symbols-outlined">
+                                    arrow_right_alt
+                                </span>
+                            </div>
+                        </a>
                     </div>
                     <div className="hww-slide" id="hww-slide-2">
                         <h1>02</h1>
                         <h6>We place Resident Support Teams in our partners multi-housing communities.</h6>
-                        <div className="learn-more">
-                            <p>
-                                Learn more
-                            </p> 
-                            <span className="material-symbols-outlined">
-                                arrow_right_alt
-                            </span>
-                        </div>
+                        <a href="/rst">
+                            <div className="learn-more">
+                                <p>
+                                    Learn more
+                                </p> 
+                                <span className="material-symbols-outlined">
+                                    arrow_right_alt
+                                </span>
+                            </div>
+                        </a>
                     </div>
                     <div className="hww-slide" id="hww-slide-3">
                         <h1>03</h1>
                         <h6>We holistically train & form disciple-makers who make disciples of Jesus.</h6>
-                        <div className="learn-more">
-                            <p>
-                                Learn more
-                            </p> 
-                            <span className="material-symbols-outlined">
-                                arrow_right_alt
-                            </span>
-                        </div>
+                        <a href="/training">
+                            <div className="learn-more">
+                                <p>
+                                    Learn more
+                                </p> 
+                                <span className="material-symbols-outlined">
+                                    arrow_right_alt
+                                </span>
+                            </div>
+                        </a>
                     </div>
                     <div className="hww-slide" id="hww-slide-4">
                         <h1>04</h1>
                         <h6>We mobilize Churches to effectively reach their neighboring multi-housing communities.</h6>
-                        <div className="learn-more">
-                            <p>
-                                Learn more
-                            </p> 
-                            <span className="material-symbols-outlined">
-                                arrow_right_alt
-                            </span>
-                        </div>
+                        <a href="/churches">
+                            <div className="learn-more">
+                                <p>
+                                    Learn more
+                                </p> 
+                                <span className="material-symbols-outlined">
+                                    arrow_right_alt
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -166,8 +174,8 @@ export default async function Home() {
                     <h5>Impacting Communities</h5>
                 </div>
                 <div className="cta-right">
-                    <a href="/rst" className="button-3">Become A RST</a>
                     <a href="/partner" className="button-3">Become a Partner</a>
+                    <a href="/rst" className="button-3">Become A RST</a>
                 </div>
             </div>
         </div>

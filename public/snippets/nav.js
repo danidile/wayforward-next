@@ -19,3 +19,15 @@ let menuEnterOut = () =>{
 console.log('Hello');
 burger.onclick = menuEnterOut;
 containerMenu.onclick = menuEnterOut;
+
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+    document.getElementsByClassName("menu-container")[0].style.padding = "10px 10px";
+  } else {
+    document.getElementsByClassName("menu-container")[0].style.padding = "20px 10px";
+  }
+}

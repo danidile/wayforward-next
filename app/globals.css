@@ -135,20 +135,26 @@ margin-top: 20px;
   width: 200px;
 }
 .menu-container{
+
   position: relative;
   z-index: 10;
-  height: 8vh;
   align-items: center;
   vertical-align: middle;
   font-weight: 400;
   padding: 20px 10px;
   display: flex;
-  margin: 0px auto;
-  width: 95vw;
+  margin: 0px 0px 0px auto;
+  width: 98vw;
   flex-direction: row;
   color: black;
+  transition: 0.5s;
 }
-
+.menu-box{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: var(--background);
+}
 .menu-img-container{
   flex-grow: 1;
   display: flex;
@@ -156,6 +162,7 @@ margin-top: 20px;
   justify-content: center;
 }
 .menu-list-container{
+  max-width: 800px;
   flex-grow: 1;
   transition: 1s;
 }
@@ -1187,12 +1194,19 @@ background: white;
   font-weight: 400;
   padding: 0 18px;
   font-size: 16px;
-
+  list-style: none;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #eee;
   color: #444;
+}
+
+
+.panel p{
+
+  list-style: none;
+
 }
 .accordian-arrow{
   transition: 0.2s;
@@ -1297,30 +1311,29 @@ border-radius: 2px;
   margin: 0px auto;
   }
 
-.box-content h4{
-  font-weight: 600;
-}
 
 .box-content h4{
-  font-weight: 600;
+  font-weight: 400;
   margin: 2rem 0px;
 }
 .box-content a{
-  font-weight: 600;
+  font-weight: 400;
   margin: 2rem 0px;
 }
-
+.box-content p{
+font-size: 18px;
+}
 
 
 .churches-section{
   width: 98vw;
   height: 50vh;
-  color: #ffffff;
+  color: #333333;
   margin: 1vw;
   border-radius: 12px;
   position: relative;
   overflow:hidden;
-  background-image: url('/images/church-black.webp');
+  background-image: url('/images/bg1.webp');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -1337,13 +1350,14 @@ border-radius: 2px;
 .mho-section{
   width: 98vw;
   height: 50vh;
-  color: #ffffff;
+  color: #333333;
   margin: 1vw;
   border-radius: 12px;
   position: relative;
   overflow:hidden;
-  background-image: url('/images/mhh.webp');
+  background-image: url('/images/bg2.webp');
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1392,8 +1406,8 @@ border-radius: 2px;
     }
 .testimonial-container img{
 position: absolute;  
-top: -20px;
-left: -20px;
+top: -40px;
+left: -40px;
 width: 100px;
   }
 .testimonial-content p{
@@ -1464,18 +1478,18 @@ body{
 
 
     .menu-box{
-      position: absolute;
-      overflow: hidden;
-      height: 100vh;
+      position: sticky;
+      overflow: visible;
       width: 100vw;
       top: 0px;
-      left: 0px;
+      left: 0;
     }
     .menu-container{
       width: 100vw;
+      overflow: visible;
     }
     .menu-top-space-mobile{
-      height:8vh;
+      height:1vh;
     }
 
     .ul-menu{
@@ -1487,9 +1501,11 @@ body{
     .menu-list-container{
       align-self: stretch;
       position: absolute;
+      max-width: none;
+
       left: 120%;
       width: 100vw;
-      height: 100vh;
+      height: 100vh !important;
       background-color: #eeeeeef9;
       display: flex;
       flex-direction: column;
@@ -1671,6 +1687,10 @@ display: none;}
 }
 
     @media screen and (max-width: 750px) { 
+      .menu-top-space-mobile{
+        height:8vh;
+      }
+
       h1{
         font-size: 2.027rem;
       }

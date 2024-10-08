@@ -21,18 +21,7 @@ export default function rst() {
                 </div>      
 
        </div>
-       <div className="fc-section">
-               <div className="fc-content">
-                   <h2>Our 5 C’s:</h2>
-                   <ul>
-                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
-                       <li>Connect residents to local resources and point them to social services</li>
-                       <li>Celebrate with events-with-intent</li>
-                       <li>Community engagement for residents</li>
-                       <li>Calling people to do the same</li>
-                   </ul>
-               </div>
-       </div>
+       
          
         <div className="rst-section">
         <h2>Follow the steps.</h2>
@@ -82,6 +71,18 @@ export default function rst() {
                 
                 </div>      
 
+       </div>
+       <div className="fc-section">
+               <div className="fc-content">
+                   <h2>Our 5 C’s:</h2>
+                   <ul>
+                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
+                       <li>Connect residents to local resources and point them to social services</li>
+                       <li>Celebrate with events-with-intent</li>
+                       <li>Community engagement for residents</li>
+                       <li>Calling people to do the same</li>
+                   </ul>
+               </div>
        </div>
 
 

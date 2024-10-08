@@ -10,7 +10,7 @@ export default function Home() {
            
            <div className="churches-content">
                 <h2>
-                WayForward provides value to Churches through training and mobilization.
+                Training and Mobilization
                 </h2>
            
                 <a className="button-big m-top-20" href="#mht-steps-section">
@@ -24,12 +24,13 @@ export default function Home() {
        <div className="rst-section">     
                 <div class="box-container">
                     <div class="box-content">
-                        <h4>Training / Mobilization</h4>
+                        <h4>                WayForward provides value to Churches through training and mobilization.
+                        </h4>
                         
                         <p>
                         Drawing on over six years of experience, WayForward partners with churches to catalyze new initiatives through training and mobilization to effectively engage multi-housing communities. We aim to advance the God’s Kingdom in areas where 94%-98% of multi-housing residents are disconnected from God and unengaged by Churches. <br/><br/>
 
-                        Since its founding, WayForward has aimed to spread the message of Jesus and make disciples who, in turn, make more disciples. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people. <br/>
+                        Since its founding, WayForward has aimed to spread the message of Jesus and make disciples who, in turn, make more disciples. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people. <br/><br/>
 
                         We believe this mission is central to the Church's purpose and should be treated with urgency. Every individual deserves the chance to hear a clear gospel message and have the opportunity to be a disciple-maker. The Church is the primary means of achieving this.<br/>
 
@@ -38,10 +39,7 @@ export default function Home() {
                         </p>
                         <br/>
                         <br/>
-                        <p><strong>Contact us to have WayForward train and mobilize disciples in your local church.</strong></p>
-                        <a href="/rst" className="button-big">
-                                Contact Us
-                        </a>
+                        
                     </div>
                     
                 
@@ -154,6 +152,10 @@ export default function Home() {
           
         </ul>
       </div>
+      <p><strong>Contact us to have WayForward train and mobilize disciples in your local church.</strong></p>
+                        <a href="/rst" className="button-big">
+                                Contact Us
+                        </a>
       <div className="testimonial-section">     
             <div class="testimonial-container">
             <img src="/images/testimonial2.png" alt=""/>
@@ -171,7 +173,7 @@ export default function Home() {
        </div>
        <div className="testimonial-section">     
             <div class="testimonial-container">
-                <img src="/images/testimonial.png" alt=""/>
+                <img src="/images/testimonial2.png" alt=""/>
                 <div class="testimonial-content">
                         <h5><strong>Resident Support Team</strong></h5>
                         <br/>

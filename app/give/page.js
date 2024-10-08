@@ -9,18 +9,16 @@ export default function Home() {
    <div className="rst-section">     
                 <div class="box-container">
                     <div class="box-content">
-                        <h4>How can we reach the ends of the earth,
-                            If we don’t reach our neighborhoods first?
-                        </h4>
+                        <h2>How can we reach the ends of the earth
+                            if we don’t reach our neighborhoods first?
+                        </h2>
                         
                         <p>
                         DONATE - Support Teams in local communities.<br/>
                         PRAY - Change lives you could never reach otherwise. <br/>
                         STAY INFORMED - Track your impact month to month. 
                         </p>
-                        <a href="/rst" className="button-big">
-                                Become an RST
-                        </a>
+                        
                     </div>
                     
                 
@@ -46,13 +44,20 @@ export default function Home() {
                                     
                         <div className="cta-donate">
                             <h4>Methods to donate:</h4>
-                                <button class="accordion">Grants: <img src="/images/right-arrow.png" className="accordian-arrow" />
+                                <button class="accordion">Zeffy: <img src="/images/right-arrow.png" className="accordian-arrow" />
+                                    <div class="panel">
+                                    <a href="https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c" className="button-big">
+                                        Donate
+                                    </a>
+                                    </div>
+                                </button>
+                                <button class="accordion  accordion-2">Grants: <img src="/images/right-arrow.png" className="accordian-arrow" />
                                     <div class="panel">
                                         <p>
-                                        ·  	Give from a personal 501(c)3<br/>
-                                        ·  	Give from Impact Foundation<br/>
-                                        ·  	Give from National Christian Foundation [NCF]<br/>
-                                        ·  	Give from Signatry
+                                        Give from a personal 501(c)3<br/>
+                                        Give from Impact Foundation<br/>
+                                        Give from National Christian Foundation [NCF]<br/>
+                                        Give from Signatry
                                         </p>
                                     </div>
                                 </button>

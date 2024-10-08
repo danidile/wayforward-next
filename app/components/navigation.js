@@ -17,8 +17,8 @@ export default function NavBar() {
                                 Multi-Housing Training
                             </a>
                             <div class="dropdown-content">
-                                <a href="/rst">RST</a>
-                                <a href="/churches">Churches</a>
+                                <a href="/rst">RST Training</a>
+                                <a href="/churches">Church Training</a>
                             </div>
                         </li>
                         <li><a href="/give">Donate</a></li>
@@ -29,7 +29,7 @@ export default function NavBar() {
                         </li>
                         <li>
                             <a href="/rst" className="button-big">
-                                Become an RST
+                                Become a RST
                             </a>
                         </li>
                     </ul>

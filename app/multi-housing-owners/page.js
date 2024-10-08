@@ -65,7 +65,7 @@ export default function Home() {
        </div>
        <div className="testimonial-section">     
             <div class="testimonial-container">
-                <img src="/images/testimonial.png" alt=""/>
+                <img src="/images/testimonial2.png" alt=""/>
                 <div class="testimonial-content">
                         <h5><strong>StoneSteps Real Estate</strong></h5>
                         <br/>
