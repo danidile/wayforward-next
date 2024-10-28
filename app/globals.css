@@ -1,3 +1,4 @@
+
 :root {
   --background: #f1edeb;
   --foreground: #171717;
@@ -44,6 +45,20 @@ body {
   box-sizing: border-box;
   font-family: Montserrat;
   min-width: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .filter-bright{
+      filter: brightness(2000%);
+  }
+  .svg-dark{
+    fill: white;
+    filter: brightness(2000%);
+  }
+}
+.wpw-arrow{
+  height: 50px;
+  fill: var(--foreground);
 }
 
 button{
@@ -135,7 +150,6 @@ margin-top: 20px;
   width: 200px;
 }
 .menu-container{
-
   position: relative;
   z-index: 10;
   align-items: center;
@@ -146,7 +160,6 @@ margin-top: 20px;
   margin: 0px 0px 0px auto;
   width: 98vw;
   flex-direction: row;
-  color: black;
   transition: 0.5s;
 }
 .menu-box{
@@ -314,6 +327,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
   padding: 6rem 6rem;
   background-image: url('/images/bg-gradient.jpg');
   object-position: bottom;
+  color: black;
 
 }
 
@@ -360,6 +374,7 @@ border-top: 1px solid #cfc8c8;
   gap: 20px;
   background-color: e8e0dc;
   transition: 0.5s;
+
 
   
 }
@@ -582,7 +597,6 @@ color: black;
 }
 
 footer{
-background: linear-gradient(#dedede00, #cfc8c8);
 padding: 1vw;
 
 }
@@ -636,6 +650,8 @@ margin: 50px auto;
 .rst-section{
 margin: 0px auto;
   width: 95vw;
+  color: black;
+
 
 }
 .rst-container {
@@ -888,7 +904,6 @@ opacity: 0;  }
   margin: 0px auto;
   padding: 5vh;
   z-index: 8;
-  color: black;
 }
 .wpw-section h2{
   font-weight: 400;
@@ -923,17 +938,17 @@ width: 50px;
 }
 
 .wpw-arrow{
-  width: 50px;
-  height: 50px;
-  transform: rotate(-135deg);
+  width: 40px;
+  height: 40px;
+  transform: rotate(-0deg);
   transition: 0.3s;
-
 }
 
+
 .wpw-arrow:hover{
-  width: 55px;
-  height: 55px;
-  transform: rotate(-90deg);
+  width: 45px;
+  height: 45px;
+  transform: rotate(-45deg);
   
 }
 
@@ -953,7 +968,7 @@ width: 50px;
 .values-cards{
   gap: 10px;
   margin: 0px auto;
-
+color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1092,6 +1107,7 @@ width: 50px;
     background-size: cover;
     display: flex;
     flex-direction: row;
+    color: black;
   }
 
   .apply-content{
@@ -1253,9 +1269,14 @@ background: white;
   width: 30px;
 }
 .steps-number{
+  font-family: "Roboto Mono", monospace;
+
  background-color: var(--color-neutral);
-width: 100%;
+ color: black;
 padding: 10px;
+min-width: 40px;
+min-height: 40px;
+
 text-align: center;
 border-radius: 2px;
 }
@@ -1309,6 +1330,7 @@ border-radius: 2px;
   gap: 6rem;
   max-width: 1200px;
   margin: 0px auto;
+  color: var(--foreground);
   }
 
 
@@ -1382,6 +1404,7 @@ font-size: 18px;
   margin: 0px auto;
     width: 95vw;
     margin-top: 50px;
+    color: black;
   }
   .testimonial-container{
     padding: 4rem;
@@ -1412,10 +1435,68 @@ width: 100px;
   }
 .testimonial-content p{
       text-align: justify;
-
+color: black;
       
 }
   
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+.form-group{
+  width: 80%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.form-group input ,textarea{
+padding: 1rem;
+border-radius: 5px;
+border: 0px solid;
+}
+.send-button{
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 0px solid;
+  background-color: var(--foreground);
+  color: var(--background);
+  width: 80%;
+}
+  
+.form-label{
+  font-weight: 500;
+  margin: 1rem 0px 0.2rem 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

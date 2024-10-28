@@ -59,6 +59,7 @@ export default function Home() {
         </div>
         
         <ul class="steps-ul">
+          
         <li class="steps-li">
             <div class="step-timeline">
               <div class="steps-number">1</div>

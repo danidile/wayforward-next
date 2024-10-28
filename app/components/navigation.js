@@ -6,7 +6,7 @@ export default function NavBar() {
     <div class="menu-box">
             <div className="menu-container">
                 <div className="menu-img-container">
-                    <img  className="menu-logo"  src="/images/WF-Logo.png" alt=""></img>
+                    <img src="/images/WF-Logo.png" alt=""  className="menu-logo filter-bright"></img>
                 </div>
                 
                 <div className="menu-list-container">

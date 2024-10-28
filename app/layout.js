@@ -3,8 +3,12 @@ import NavBar from "./components/navigation";
 import Footer from "./components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
+
+
+
 export default function RootLayout({ children }) {
   return (
+
     <html lang="en">
       <head>
       <SpeedInsights/>
@@ -19,10 +23,15 @@ export default function RootLayout({ children }) {
 
       <body >
       <NavBar/>
+      
+
         {children}
+      
+
         <Footer/>
       </body>
     </html>
     
+
   );
 }

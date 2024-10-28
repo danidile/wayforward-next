@@ -1,5 +1,5 @@
 import Script from "next/script";
-
+import ContactForm from './components/contactForm';
 
 export default async function Home() {
 
@@ -179,6 +179,7 @@ export default async function Home() {
                 </div>
             </div>
         </div>
+        <ContactForm/>
 
        
   </>);

@@ -32,7 +32,7 @@ export default function Home() {
                         <h4>Multi-Housing Owners</h4>
                         <h6>WayForward provides value to Real Estate Owners and management companies through impact, engagement and satisfaction.</h6>
                     </div>
-                    <img src="/images/down-arrow.png" alt="" className="wpw-arrow"/>
+                    <img src="/images/arrow-black.svg" alt="" className="wpw-arrow"/>
                 </div>
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">02</h2>
@@ -41,7 +41,7 @@ export default function Home() {
                         <h4>Churches</h4>
                         <h6>WayForward provides value to Churches through training and mobilization.</h6>
                     </div>
-                    <img src="/images/down-arrow.png" alt="" className="wpw-arrow"/>
+                    <img src="/images/arrow-black.svg" alt="" className="wpw-arrow"/>
 
                 </div>
                 <div class="wpw-card">
@@ -51,7 +51,7 @@ export default function Home() {
                         <h4>Organizations</h4>
                         <h6>WayForward provides value to organizations through collaboration, training, and networking.</h6>
                     </div>
-                    <img src="/images/down-arrow.png" alt="" className="wpw-arrow"/>
+                    <img src="/images/arrow-black.svg" alt="" className="wpw-arrow"/>
 
                 </div>
             </div>

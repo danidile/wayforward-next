@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
     <div className="footer-container">
         <div className="footer-column1">
-            <img src="images/WayForward-Logo-Primary-Black.png" className="footer-logo"></img>
+            <img src="images/WayForward-Logo-Primary-Black.png" className="footer-logo filter-bright"></img>
             <p>
                 Leading the way in forming <br/> disciple-makers in every community. 
             </p>
@@ -27,6 +27,5 @@ export default function Footer() {
         
     </div>
 </footer>
-            
-        );
+);
 }
