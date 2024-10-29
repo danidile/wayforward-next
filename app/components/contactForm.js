@@ -2,31 +2,32 @@
 
 export default function ContactForm() {
     return (
-        <div class="contact-container">
+    <div class="contact-container">
+        <div class="contact-us-header">
+                <h2>Contact us</h2>
+                <p>Contact our team</p>
+        </div>
         <form id="contact-form" class="form-horizontal" role="form">
        
-      <div class="form-group">
-            <label class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Name" name="name" value="" required />
-      </div>
+          <div class="form-group">
+                <label class="form-label">Name</label>
+              <input type="text" placeholder="Name" id="name" name="name"  required />
+          </div>
 
-      <div class="form-group">
-        <label class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required />
-      </div>
-      <div class="form-group">
-      <label class="form-label">Message</label>
-      <textarea class="form-control" rows="10" placeholder="Message" name="message" required></textarea>
-      </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+              <input type="email" id="email" placeholder="Email" name="email" required />
+          </div>
+          <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="10" placeholder="Message" name="message" required></textarea>
+          </div>
 
-      <button class="send-button" id="submit" type="submit" value="SEND">
-        <div class="alt-send-button">
-          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-        </div>
-      
-      </button>
-      
-    </form>
+          <button class="send-button button-big" id="submit" type="submit" value="SEND">
+            Send
+          </button>
+          
+        </form>
     </div>
               
           );
