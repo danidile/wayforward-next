@@ -1441,7 +1441,7 @@ color: black;
   
 .contact-container{
   margin: 0px auto;
-  max-width: 90vw;
+  max-width: 98vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -1486,12 +1486,12 @@ border-bottom: 1px solid rgb(97, 97, 97);
 
 .form-horizontal{
   width: 50%;
-  padding: 1rem;
-
-  
+  padding: 0.5rem;
 }
 
-
+.contact-us-header{
+  padding: 3rem;
+}
 
 
 
@@ -1773,6 +1773,10 @@ display: none;}
     top: -35px;
 
       }
+
+  .contact-container{
+    grid-template-columns: 1fr;
+  }
 }
 
     @media screen and (max-width: 750px) { 
