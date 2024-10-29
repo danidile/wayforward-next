@@ -2,7 +2,7 @@
 export default function NavBar() {
   return (
     <>
-    <div class="menu-top-space-mobile"></div>
+    {/* <div class="menu-top-space-mobile"></div> */}
     <div class="menu-box">
             <div className="menu-container">
                 <div className="menu-img-container">

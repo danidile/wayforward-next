@@ -1568,14 +1568,16 @@ body{
 
     .menu-box{
       position: sticky;
-      overflow: visible;
-      width: 100vw;
+      max-width: 100vw;
+      overflow-y: visible;
+      overflow-x: visible;
       top: 0px;
       left: 0;
     }
     .menu-container{
-      width: 100vw;
-      overflow: visible;
+      max-width: 100vw;
+      overflow-y: visible;
+      overflow-x: visible;
     }
     .menu-top-space-mobile{
       height:1vh;
