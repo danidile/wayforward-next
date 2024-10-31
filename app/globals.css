@@ -935,6 +935,11 @@ opacity: 0;  }
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  transition: 0.3s;
+}
+.wpw-card:hover{
+  transform: scale(1.02);
+  background-color: #ffffff;
 }
 
 
@@ -1314,6 +1319,7 @@ border-radius: 2px;
 .step-text{
   padding-left: 20px;
   padding-bottom: 50px;
+  max-width: 500px;
 }
 
 .step-text h6{

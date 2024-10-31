@@ -25,6 +25,7 @@ export default function Home() {
         <div class="wpw-section">
             <h2>We partner with:</h2>
             <div class="wpw-container">
+            <a href="/multi-housing-owners">
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">01</h2>
                     <img src="/images/v1.jpg"  class="wpw-card-image"/>
@@ -34,6 +35,8 @@ export default function Home() {
                     </div>
                     <img src="/images/arrow-black.svg" alt="" className="wpw-arrow"/>
                 </div>
+                </a>
+                <a href="/churches">
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">02</h2>
                     <img src="/images/church.webp"  class="wpw-card-image " />
@@ -44,6 +47,7 @@ export default function Home() {
                     <img src="/images/arrow-black.svg" alt="" className="wpw-arrow"/>
 
                 </div>
+                </a>
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">03</h2>
                     <img src="/images/organizations1.jpg"  class="wpw-card-image"/>
