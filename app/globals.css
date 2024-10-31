@@ -172,9 +172,6 @@ margin-top: 40px;
   position: sticky;
   top: 0;
   z-index: 999;
-  max-width: 100vw;
-  overflow: hidden;
-  background-color: #ededed00; 
 }
 
 .menu-img-container{
@@ -1607,7 +1604,7 @@ body{
     .menu-container{
       max-width: 100vw;
       overflow-y: visible;
-      overflow-x: visible;
+      overflow-x: hidden;
     }
     .menu-top-space-mobile{
       height:1vh;
