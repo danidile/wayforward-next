@@ -1391,6 +1391,10 @@ font-size: 18px;
 
 }
 .churches-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
     margin: 0px auto;
     max-width: 1300px;
 }
