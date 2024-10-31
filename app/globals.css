@@ -17,8 +17,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f1edeb;
+    --foreground: #171717;
   }
 }
 
@@ -47,7 +47,7 @@ body {
   min-width: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .filter-bright{
       filter: brightness(2000%);
   }
@@ -60,7 +60,7 @@ body {
     background: #333333;
 
   }
-}
+} */
 .wpw-arrow{
   height: 50px;
   fill: var(--foreground);
@@ -93,12 +93,12 @@ a{
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
 
   }
-}
+} */
 
 h1{
   font-size: 5.61rem;
