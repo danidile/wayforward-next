@@ -1,6 +1,5 @@
 import Script from "next/script";
 import ContactForm from './components/contactForm';
-
 export default async function Home() {
 
     
@@ -8,21 +7,32 @@ export default async function Home() {
         
           <Script src="/snippets/homePageSlider.js" type="text/javascript"/>
 
-    <div className="hero-section ">
+    <div className="hero-section">
             <h1>
-                Impacting <br/>Communities
+                Impacting Communities
             </h1>
-            
+            <h5>Leading the way in forming disciple-makers in every community.</h5>
+            <ul className="buttons-hero-ul">
+                <li>
+                    <a href="/partner" className="button-big">
+                        Let's Partner
+                    </a>
+                </li>
+                <li>
+                    <a href="/rst" className="button-big">
+                        Become a RST
+                    </a>
+                </li>
+            </ul>
 
     </div>
 
     <div class="impact-section">
         <h5> 
-            Leading the way in forming<br/>disciple-makers in every community. 
+        WayForward partners with multi-housing owners, churches, and organizations to address disconnected and unengaged communities by fostering meaningful connections and engagement through faith-driven initiative.
+
         </h5>
         <div class="impact-images">
-            <img src="/images/v1.jpg" className="img-impact-1"/>
-            <img src="/images/v8.jpg" className="img-impact-2"/>
             <img src="/images/v3.jpg" className="img-impact-3"/>
         </div>
 
@@ -38,7 +48,7 @@ export default async function Home() {
                     <div>
                         <h5>Living </h5>
                         <p>
-                            Today 37% of the U.S. population live in some form of multi-housing. 
+                            Today 37% of the U.S. population lives in some form of multi-housing. 
                         </p>
                     </div>
                 </div>
@@ -74,9 +84,6 @@ export default async function Home() {
                     </div>
                 </div>
 
-                <h6>
-                    WayForward partners with multi-housing owners, churches, and organizations to address disconnected and unengaged communities by fostering meaningful connections and engagement through faith-driven initiative.
-                </h6>
                 
             </div>
             
@@ -86,7 +93,7 @@ export default async function Home() {
         
 
         <div className="how-we-work-section">
-            <h2 className="title-how-we-work">How we work.</h2>
+            <h2 className="title-how-we-work">How we work</h2>
             <div className="hww-container">
                     <img src="/images/next.png" id="arrow-forward"/>
                     <img src="/images/next.png" id="arrow-back"/>
@@ -108,7 +115,7 @@ export default async function Home() {
                     </div>
                     <div className="hww-slide" id="hww-slide-2">
                         <h1>02</h1>
-                        <h6>We place Resident Support Teams in our partners multi-housing communities.</h6>
+                        <h6>We place Resident Support Teams in our partner’s multi-housing communities.</h6>
                         <a href="/rst">
                             <div className="learn-more">
                                 <p>

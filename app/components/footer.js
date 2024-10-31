@@ -12,14 +12,14 @@ export default function Footer() {
         </div>
         <div className="footer-column2">
             <ul className="footer-menu-li">
-                <li><b>MULTI-HOUSING TRAINING</b></li>
-                <li>Resident Support Team</li>
-                <li>Churches</li>
+                <li><a href=""><b>TRAINING</b></a></li>
+                <li><a href="">Resident Support Team</a></li>
+                <li><a href="">Churches</a></li>
             </ul>
             <ul className="footer-menu-li">
-                <li><b>PARTNERS</b></li>
-                <li>Multi Housing Owners</li>
-                <li>Church</li>
+                <li><a href="/partners"><b>PARTNERS</b></a></li>
+                <li><a href="/multi-housing-owners">Multi Housing Owners</a></li>
+                <li><a href="/churches">Church</a></li>
                 <li>Organization</li>
             </ul>
             

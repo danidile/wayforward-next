@@ -24,7 +24,7 @@ export default function Home() {
        <div className="rst-section">     
                 <div class="box-container">
                     <div class="box-content">
-                        <h4>                WayForward provides value to Churches through training and mobilization.
+                        <h4>WayForward provides value to Churches through training and mobilization.
                         </h4>
                         
                         <p>

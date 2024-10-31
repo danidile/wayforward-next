@@ -7,7 +7,7 @@ export default function rst() {
   return (<>
 
     <div className="rst-section">     
-                <div class="rst-container">
+                <div class="rst-container-hero">
                     <img src="/images/rst2.jpg"/>
                     <div class="rst-content">
                         <h3>Resident Support Team</h3>
@@ -30,23 +30,21 @@ export default function rst() {
                     <>
                     <img src="/images/apply.jpg"/>
                     <div class="rst-content">
-                        <h3>01.APPLY</h3>
-                        <h6>
-                        Apply today!
-                        </h6>
-                        <p>
-                        click the button below to apply and start your journey!
-                        </p>
+                        <h3>01.Apply</h3>
+
                         
                                 <a className="button-big m-top-20" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
-                                Apply Here                                </a>
+                                Apply Here                
+                                </a>
                                                           
                     </div>
                     </>
                     <>
                     <div class="rst-content">
                         <h3>02.Get Trained</h3>
-                        
+                        <a className="button-big m-top-20" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
+                            Go to training platform            
+                        </a>
                     </div>
                     <img src="/images/study.jpg" className="remove-on-mobile" />
 

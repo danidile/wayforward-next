@@ -6,25 +6,6 @@ import Script from "next/script";
 export default function Home() {
   return (<>
    
-   <div className="rst-section">     
-                <div class="box-container">
-                    <div class="box-content">
-                        <h2>How can we reach the ends of the earth
-                            if we don’t reach our neighborhoods first?
-                        </h2>
-                        
-                        <p>
-                        DONATE - Support Teams in local communities.<br/>
-                        PRAY - Change lives you could never reach otherwise. <br/>
-                        STAY INFORMED - Track your impact month to month. 
-                        </p>
-                        
-                    </div>
-                    
-                
-                </div>      
-
-       </div>
 
 
     <div className="apply-section">
@@ -33,12 +14,10 @@ export default function Home() {
                 <div className="give-methods-container">
                                 <div className="apply-content">
                                     <h4>
-                                        Give to support our Resident Support<br/> Teams boots on the ground.
+                                        Give to support our Resident Support<br/> Teams on the ground.
                                     </h4>
                                     <p>
-                                        Track your impact.
-                                        Transform lives in communities you could never go to.
-                                    </p>
+                        Donate. Pray. Stay informed</p>
 
                                 </div>
                                     

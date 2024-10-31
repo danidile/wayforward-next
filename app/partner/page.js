@@ -27,7 +27,7 @@ export default function Home() {
             <div class="wpw-container">
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">01</h2>
-                    <img src="/images/multi1.jpg"  class="wpw-card-image"/>
+                    <img src="/images/v1.jpg"  class="wpw-card-image"/>
                     <div class="wpw-text-container">
                         <h4>Multi-Housing Owners</h4>
                         <h6>WayForward provides value to Real Estate Owners and management companies through impact, engagement and satisfaction.</h6>
@@ -36,7 +36,7 @@ export default function Home() {
                 </div>
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">02</h2>
-                    <img src="/images/church1.jpg"  class="wpw-card-image " />
+                    <img src="/images/church.webp"  class="wpw-card-image " />
                     <div class="wpw-text-container">
                         <h4>Churches</h4>
                         <h6>WayForward provides value to Churches through training and mobilization.</h6>
@@ -61,11 +61,11 @@ export default function Home() {
         <div class="values-container">
             
             <div className="values-cards">
-                <div className="values-card"><h6 className="values-card-title">God’s Kingdom</h6> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
-                <div className="values-card"><h6 className="values-card-title">Servant Littleness</h6> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
-                <div className="values-card"><h6 className="values-card-title">Holistic Formation</h6> <p className="values-card-text">Abide and bear fruit in every sphere of life. </p></div>
-                <div className="values-card"><h6 className="values-card-title">Incarnational Multiplication</h6> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
-                <div className="values-card"><h6 className="values-card-title">Excellence</h6> <p className="values-card-text">Striving for the highest standards in all we do.</p></div> 
+                <div className="values-card"><h5 className="values-card-title">God’s Kingdom</h5> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
+                <div className="values-card"><h5 className="values-card-title">Servant Littleness</h5> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
+                <div className="values-card"><h5 className="values-card-title">Holistic Formation</h5> <p className="values-card-text">Abide and bear fruit in every sphere of life. </p></div>
+                <div className="values-card"><h5 className="values-card-title">Incarnational Multiplication</h5> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
+                <div className="values-card"><h5 className="values-card-title">Excellence</h5> <p className="values-card-text">Striving for the highest standards in all we do.</p></div> 
             </div>
         </div>
        </div>

@@ -1,4 +1,5 @@
 
+
 export default function NavBar() {
   return (
     <>
@@ -6,7 +7,9 @@ export default function NavBar() {
     <div class="menu-box">
             <div className="menu-container">
                 <div className="menu-img-container">
-                    <img src="/images/WF-Logo.png" alt=""  className="menu-logo filter-bright"></img>
+                    <a href="/">
+                        <img src="/images/WF-Logo.png" alt=""  className="menu-logo filter-bright"></img>
+                    </a>
                 </div>
                 
                 <div className="menu-list-container">
@@ -14,11 +17,11 @@ export default function NavBar() {
                         <li><a href="/">Home</a></li>
                         <li className="dropbtn dropdown">
                             <a className="dropbtn">
-                                Multi-Housing Training
+                                Training
                             </a>
                             <div class="dropdown-content">
-                                <a href="/rst">RST Training</a>
-                                <a href="/churches">Church Training</a>
+                                <a href="/rst">Resident Support Team</a>
+                                <a href="/churches">Churches</a>
                             </div>
                         </li>
                         <li><a href="/give">Donate</a></li>

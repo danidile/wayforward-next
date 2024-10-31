@@ -55,6 +55,11 @@ body {
     fill: white;
     filter: brightness(2000%);
   }
+  body {
+    color: #eee ;
+    background: #333333;
+
+  }
 }
 .wpw-arrow{
   height: 50px;
@@ -133,7 +138,7 @@ small{
 
 
 .m-top-20{
-margin-top: 20px;
+margin-top: 40px;
 }
 .m-bot-20{
   margin-bottom: 20px;
@@ -166,8 +171,9 @@ margin-top: 20px;
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: var(--background);
+  background-color: #ededed00; 
 }
+
 .menu-img-container{
   flex-grow: 1;
   display: flex;
@@ -201,7 +207,7 @@ margin: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 10px;
-  min-width: 200px;
+  min-width: 300px;
   overflow: hidden;
 }
 
@@ -236,8 +242,8 @@ margin: auto;
   margin: 0px auto 50px auto;
   position: relative;
   z-index: 0;
-  padding: 20vh 9rem;
-  background-image: url('/images/cta-bg3.jpg');
+  padding: 15vh 9rem;
+  background-image: url('/images/cta-bg2.jpg');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -257,24 +263,19 @@ margin: auto;
   text-align: justify;
 }
 
-.hero-gradient{
-  width: 95vw;
-  height: 100vh;
-  z-index: 1;
-  top: 0px;
-  left: 0px;
-  position: absolute;
-  background: rgb(0,0,0);
-background: -moz-linear-gradient(133deg, rgba(0,0,0,0.6657256652661064) 0%, rgba(0,0,0,0) 41%);
-background: -webkit-linear-gradient(133deg, rgba(0,0,0,0.6657256652661064) 0%, rgba(0,0,0,0) 41%);
-background: linear-gradient(133deg, rgba(0,0,0,0.6657256652661064) 0%, rgba(0,0,0,0) 41%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+.buttons-hero-ul{
+  margin: 2rem 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .impact-section{
     align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     border: 1px solid #5c535b29;
     border-radius: 24px;
     padding: 3rem 3rem;
@@ -282,19 +283,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     margin: 50px auto;
   }
   .impact-section h5{
-    flex-grow: 1;
-    flex-shrink: 1;
-
-    max-width: 600px;
+    max-width: 1200px;
     margin-right: 50px;
   }
 
 
 
  .impact-images{
-  flex-grow: 2;
-    flex-shrink: 4;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -654,6 +649,42 @@ margin: 0px auto;
 
 
 }
+.rst-content h6{
+  margin: 20px 0px 0px 0px;
+}
+.rst-container-hero {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 0px auto;
+  border: 1px solid var(--color-neutral);
+  background-image: url('/images/bg-grain-gradient-top.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+    border-radius: 24px;
+  }
+  .rst-container-hero img{
+    aspect-ratio: 1/1;
+  object-fit: cover;
+  max-width: 100%;
+  margin: 0px 0px 0px auto;
+  border-radius: 12px;
+  
+  }
+  .rst-container img{
+    aspect-ratio: 5/3;
+  object-fit: cover;
+  max-width: 100%;
+  margin: 0px 0px 0px auto;
+  border-radius: 12px;
+  
+  }
+
 .rst-container {
   padding: 4rem;
   display: grid;
@@ -669,25 +700,9 @@ margin: 0px auto;
   background-position: bottom;
   background-size: cover;
     border-radius: 24px;
-
   }
-.rst-container img{
-  aspect-ratio: 5/3;
-object-fit: cover;
-max-width: 100%;
-margin: 0px 0px 0px auto;
-border-radius: 12px;
 
-}
 
-.rst-content {
-  max-width: 500px;
-  
-  }
-  .rst-content p{
-    text-align: justify;
-    
-    }
 
 
 
@@ -822,7 +837,8 @@ display: inline-block
 }
 .circle-title{
   transition: 0.5s;
-  color: hsl(16, 63%, 67%);
+  color: hsl(16, 67%, 59%);
+  font-size: 20px;
 
 opacity: 0;  }
 
@@ -859,7 +875,7 @@ opacity: 0;  }
 }
 .circle-O{
  
-  top: 30vh;
+  top: 35vh;
   left: 20vh;
   z-index: 0;
 
@@ -954,7 +970,12 @@ width: 50px;
 
 
 
-.values-cards-section h6{
+.values-cards-section h5{
+  text-align: center;
+  font-weight: 600;
+}
+
+.values-cards-section p{
   text-align: center;  
 }
 
@@ -1001,7 +1022,7 @@ color: black;
 }
 
 .values-card{
-  padding: 24px;
+  padding: 16px;
   box-shadow: rgba(149, 157, 165, 0.9) 0px 0px 0px;
   display: grid;
   grid-template-rows: 1fr 0fr ;
@@ -1885,7 +1906,7 @@ display: none;}
             }
             .circle-O{
              
-              top: 50vw;
+              top: 30vw;
               left: 15vw;
               z-index: 0;
             
