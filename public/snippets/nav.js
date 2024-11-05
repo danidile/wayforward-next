@@ -40,8 +40,11 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
     document.getElementsByClassName("menu-container")[0].style.padding = "10px 10px";
+    document.getElementsByClassName("menu-container")[0].style.backgroundColor = "var(--background)";
+
   } else {
     document.getElementsByClassName("menu-container")[0].style.padding = "20px 10px";
+    document.getElementsByClassName("menu-container")[0].style.backgroundColor = "#ededed00";
 
   }
 }
