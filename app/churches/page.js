@@ -12,7 +12,7 @@ export default function Home() {
                 <h2>
                 Churches
                 </h2>
-           
+                
                 <a className="button-big m-top-20" href="#mht-steps-section">
                     View RoadMap 
                 </a>

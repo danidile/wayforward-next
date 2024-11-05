@@ -12,9 +12,7 @@ export default function Home() {
                 <h2>
                 Real Estate Owners
                 </h2>
-                <h6>
-                WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
-                </h6>
+
 
                
            </div>
@@ -24,7 +22,8 @@ export default function Home() {
        <div className="rst-section">   
        <div class="church-columns-container">
                     <div class="box-content">
-                        <h4>WayForward provides value to Churches through training and mobilization.
+                        <h4>                WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
+
                         </h4>
                         
                         
