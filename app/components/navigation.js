@@ -20,9 +20,9 @@ export default function NavBar() {
                     <ul className="ul-menu">
                         <li><a href="/">Home</a></li>
                         <li className="dropbtn dropdown">
-                            <a className="dropbtn" id="dropbtn">
+                            <div className="dropbtn" id="dropbtn">
                                 Training
-                            </a>
+                            </div>
                             <div class="dropdown-content" id="dropdown-content">
                                 <a href="/rst">Resident Support Team</a>
                                 <a href="/churches">Churches</a>

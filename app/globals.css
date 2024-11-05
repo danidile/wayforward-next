@@ -1864,9 +1864,7 @@ body{
         .footer-column3{
         width: 100%;
         }
-        .footer-menu-li{
-          text-align: center;
-        }
+        
 }
 
 @media screen and (max-width: 950px) { 
@@ -1913,6 +1911,9 @@ display: none;}
 }
 
     @media screen and (max-width: 750px) { 
+      .footer-menu-li{
+        text-align: left;
+      }
       .menu-top-space-mobile{
         height:8vh;
       }
