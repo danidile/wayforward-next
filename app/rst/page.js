@@ -10,7 +10,7 @@ export default function rst() {
                 <div class="rst-container-hero">
                     <img src="/images/rst2.jpg"/>
                     <div class="rst-content">
-                        <h3>Resident Support Team</h3>
+                        <h2>Resident Support Team</h2>
                         <h6>
                             Join hundreds of people impacting their local communities. 
                         </h6>
@@ -24,7 +24,7 @@ export default function rst() {
        
          
         <div className="rst-section">
-        <h2>Follow the steps.</h2>
+        <h3>Follow the steps.</h3>
 
                 <div class="rst-container">
                     <>

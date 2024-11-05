@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Script from "next/script";
+import ContactForm from '../components/contactForm';
 
 
 export default function Home() {
@@ -156,7 +157,8 @@ export default function Home() {
           
         </ul>
       </div>
-      
+      <ContactForm/>
+
       <div className="testimonial-section">     
             <div class="testimonial-container">
             <img src="/images/testimonial2.png" alt=""/>
