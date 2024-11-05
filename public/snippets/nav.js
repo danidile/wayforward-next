@@ -31,7 +31,6 @@ let menuEnterOut = () =>{
 };
 console.log('Hello');
 burger.onclick = menuEnterOut;
-blurbg.onclick = menuEnterOut;
 
 
 
