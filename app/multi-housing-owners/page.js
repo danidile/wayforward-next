@@ -22,8 +22,7 @@ export default function Home() {
        <div className="rst-section">   
        <div class="church-columns-container">
                     <div class="box-content">
-                        <h4>                WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
-
+                        <h4>WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
                         </h4>
                         
                         

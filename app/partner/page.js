@@ -39,7 +39,7 @@ export default function Home() {
                 <a href="/churches">
                 <div class="wpw-card">
                     <h2 class="h2-wpw-card">02</h2>
-                    <img src="/images/church.webp"  class="wpw-card-image " />
+                    <img src="/images/church_bread.png"  class="wpw-card-image " />
                     <div class="wpw-text-container">
                         <h4>Churches</h4>
                         <h6>WayForward provides value to Churches through training and mobilization.</h6>

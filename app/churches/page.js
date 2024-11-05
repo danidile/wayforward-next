@@ -35,7 +35,7 @@ export default function Home() {
                         Since its founding, WayForward has aimed to spread the message of Jesus and make disciples who, in turn, make more disciples. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people.
                         </p>
                         <p>
-                        <img src="/images/church.webp" alt=""/>
+                        <img src="/images/church_bread.png" alt=""/>
                         We believe this mission is central to the Church's purpose and should be treated with urgency. Every individual deserves the chance to hear a clear gospel message and have the opportunity to be a disciple-maker. The Church is the primary means of achieving this.
                         We would love to discuss how we can equip and mobilize your church for this important work in your community.
                         </p> 
