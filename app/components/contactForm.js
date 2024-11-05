@@ -14,15 +14,17 @@ export default function ContactForm() {
                 <h2>Contact us</h2>
         </div>
         <form id="contact-form" class="form-horizontal" role="form" onSubmit={handleSubmit(sendData)}>
-       
-          <div class="form-group">
-                <label class="form-label">Name</label>
-              <input {...register("name")} type="text" placeholder="Name" id="name" name="name"  required />
-          </div>
 
-          <div class="form-group">
-            <label class="form-label">Email</label>
-              <input {...register("email")} type="email" id="email" placeholder="Email" name="email" required />
+          <div className="input-two-cols">
+              <div class="form-group">
+                    <label class="form-label">Name</label>
+                  <input {...register("name")} type="text" placeholder="Name" id="name" name="name"  required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Email</label>
+                  <input {...register("email")} type="email" id="email" placeholder="Email" name="email" required />
+              </div>
           </div>
           <div class="form-group">
           <label class="form-label">Phone number</label>

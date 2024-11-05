@@ -1,10 +1,14 @@
+import Script from "next/script";
 
 
 export default function NavBar() {
   return (
     <>
+    <Script src="/snippets/dropdown-menu.js" type="text/javascript"/>
+
     {/* <div class="menu-top-space-mobile"></div> */}
     <div class="menu-box">
+        <div className="blur-menu-bg"> </div>
             <div className="menu-container">
                 <div className="menu-img-container">
                     <a href="/">
@@ -16,10 +20,10 @@ export default function NavBar() {
                     <ul className="ul-menu">
                         <li><a href="/">Home</a></li>
                         <li className="dropbtn dropdown">
-                            <a className="dropbtn">
+                            <a className="dropbtn" id="dropbtn">
                                 Training
                             </a>
-                            <div class="dropdown-content">
+                            <div class="dropdown-content" id="dropdown-content">
                                 <a href="/rst">Resident Support Team</a>
                                 <a href="/churches">Churches</a>
                             </div>

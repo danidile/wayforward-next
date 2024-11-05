@@ -156,10 +156,7 @@ export default function Home() {
           
         </ul>
       </div>
-      <p><strong>Contact us to have WayForward train and mobilize disciples in your local church.</strong></p>
-                        <a href="/rst" className="button-big">
-                                Contact Us
-                        </a>
+      
       <div className="testimonial-section">     
             <div class="testimonial-container">
             <img src="/images/testimonial2.png" alt=""/>
