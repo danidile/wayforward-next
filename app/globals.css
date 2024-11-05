@@ -166,7 +166,7 @@ margin-top: 40px;
   max-width: 98vw;
   flex-direction: row;
   transition: 0.5s;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .menu-box{
   position: sticky;
@@ -205,7 +205,7 @@ margin: auto;
   position: absolute;
   background-color: #f1f1f1;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 999;
   border-radius: 10px;
   min-width: 300px;
   overflow: hidden;
@@ -222,6 +222,7 @@ margin: auto;
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 999;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -318,9 +319,9 @@ margin: auto;
   margin: 0px;
   margin: 6rem 0px;
   border-radius: 24px;
-  border: 1px solid #cfc8c8;
+  border: 1px solid #cfc8c839;
   padding: 6rem 6rem;
-  background-image: url('/images/bg-gradient.jpg');
+  background-image: url('/images/bg-gradient-blended.webp');
   object-position: bottom;
   color: black;
 
@@ -1420,6 +1421,7 @@ font-size: 18px;
 .mho-content{
     margin: 0px auto;
     max-width: 1300px;
+    text-align: center;
 }
 
 .mho-content h3{
@@ -1427,7 +1429,51 @@ font-size: 18px;
 }
 
 
+.church-columns-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 6rem;
+  max-width: 1300px;
+  margin: 0px auto;
+  color: var(--foreground);
 
+  }
+.text-columns{
+  border-radius: 24px;
+  background-image: url('/images/bg-gradient-blended.webp');
+  background-size: cover;
+  object-position: bottom;
+  color: black;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  line-height: 1.6rem;
+}
+
+.text-columns p{
+
+  text-align: justify;
+  padding: 4rem;
+
+}
+
+.text-columns div{
+
+  text-align: justify;
+  padding: 4rem;
+
+}
+
+.text-columns p img{
+  width: 100%;
+  aspect-ratio: 3/1.2;
+  object-fit: cover;
+  object-position: top;
+}
 
 
 

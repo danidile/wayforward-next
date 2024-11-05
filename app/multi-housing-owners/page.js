@@ -9,42 +9,43 @@ export default function Home() {
     <div className="mho-section">
            
            <div className="mho-content">
-                <h3>
+                <h2>
+                Real Estate Owners
+                </h2>
+                <h6>
                 WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
+                </h6>
 
-                </h3>
-           
-                <a className="button-big m-top-20" href="#mht-steps-section">
-                    View RoadMap 
-                </a>
                
            </div>
            
        </div>
         
-       <div className="rst-section">     
-                <div class="box-container">
+       <div className="rst-section">   
+       <div class="church-columns-container">
                     <div class="box-content">
-                        <h4>Impact / Engagement / Satisfaction</h4>
+                        <h4>WayForward provides value to Churches through training and mobilization.
+                        </h4>
                         
+                        
+                        <div class="text-columns">
                         <p>
                         94-98% of people in multi-housing communities are not connected to a faith family. That means only 2-6% of residents are Christians engaging their properties with Churches. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people. <br/>
-
-                        Most Christian Real Estate owners and operators also are not pursuing any Kingdom Impact with their companies.<br/><br/>
-
-                        WayForward helps owners and operators rethink a new bottom line for their company by placing Resident Support Teams on site to engage their neighbors and solve these issues with faith-driven initiatives. <br/>
-
+                        <br/>
+                        Most Christian Real Estate owners and operators also are not pursuing any Kingdom Impact with their companies.
                         </p>
-                        <br/>
-                        <br/>
-                        <p><strong>Contact Us to have WayForward at your properties.</strong></p>
-                        <a href="/rst" className="button-big">
-                                Contact Us
-                        </a>
+                        <p>
+                        <img src="/images/v32.jpg" alt=""/>
+                        WayForward helps owners and operators rethink a new bottom line for their company by placing Resident Support Teams on site to engage their neighbors and solve these issues with faith-driven initiatives. <br/>
+                        </p> 
+                        </div>
+
+                        
                     </div>
                     
                 
-                </div>      
+                </div>   
+                    
 
        </div>
 
