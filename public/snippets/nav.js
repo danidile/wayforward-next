@@ -7,8 +7,12 @@ let toggle = 0;
 let menuEnterOut = () =>{
     console.log('Hello');
     if(toggle === 0){
+      blurbg.style.display = "block";
+
         containerMenu.style.left = "0%";
         menuContainer.style.height = "100vh";
+        menuContainer.style.width = "100vw";
+        menuContainer.style.position = "absolute";
         menuContainer.style.alignItems = "flex-start";
 
         burger.src = "/images/close.png";
@@ -20,14 +24,14 @@ let menuEnterOut = () =>{
         burger.src = "/images/menu.png";
         toggle = 0;
         menuContainer.style.height = "auto";
+        menuContainer.style.position = "relative";
+
         menuContainer.style.alignItems = "center";
-
     }
-
 };
 console.log('Hello');
 burger.onclick = menuEnterOut;
-containerMenu.onclick = menuEnterOut;
+blurbg.onclick = menuEnterOut;
 
 
 
@@ -42,3 +46,26 @@ function scrollFunction() {
 
   }
 }
+
+let drpdnbtn = document.getElementById('dropbtn');
+let dropdown1 = document.getElementById('dropdown1');
+let dropdown2 = document.getElementById('dropdown2');
+
+const openDropdown =() =>{
+  dropdown1.style.display = "block";
+  dropdown1.style.maxHeight = "50px";
+  dropdown1.style.lineHeight = "normal";
+  dropdown1.style.padding = "1rem";
+
+
+  dropdown2.style.display = "block";
+  dropdown2.style.maxHeight = "50px";
+  dropdown2.style.lineHeight = "normal";
+  dropdown2.style.padding = "1rem";
+  
+
+
+}
+
+
+drpdnbtn.onclick = openDropdown;

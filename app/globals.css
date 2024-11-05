@@ -150,7 +150,10 @@ margin-top: 40px;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
+  align-content: stretch;
 }
+
+
 .menu-logo{
   width: 200px;
 }
@@ -184,7 +187,26 @@ margin-top: 40px;
   max-width: 800px;
   flex-grow: 1;
   transition: 1s;
+
 }
+.dropbtn{
+  cursor: pointer;
+}
+
+.mobile-dropdown{
+  font-weight: 400;
+  display: none;
+max-height: 0;
+overflow: hidden;
+line-height: 0px;
+transition: max-height 0.2s ease-out;
+}
+.dropdown1{
+  transition: 0.3s;
+  }
+  .dropdown2{
+    transition: 0.3s;
+    }
 
 .menu-button-1{
   font-weight: 500;
@@ -218,6 +240,7 @@ margin: auto;
   position: absolute;
   height: 100vh;
   width: 100vw;
+  background-color: #f1edeba1;
   backdrop-filter: blur(15px);
   display: none;
 }
@@ -237,15 +260,16 @@ margin: auto;
   position: relative;
   display: inline-block;
   z-index: 999;
-}
 
+}
+@media screen and (min-width: 1100px) {
 .dropdown:hover .dropdown-content {
   display: block;
   height: auto;
   max-height:fit-content;
 }
 
-
+}
 
 
 
@@ -459,7 +483,7 @@ top: -5px;
   display: none;
 
   position: absolute;
-  z-index: 999;
+  z-index: 7;
   width: 70px;
   background-color: #ffffffcd;
   border-radius: 100%;
@@ -471,7 +495,7 @@ top: -5px;
 #arrow-forward{
   display: none;
   position: absolute;
-  z-index: 999;
+  z-index: 7;
   width: 70px;
   background-color: #ffffffcd;
   border-radius: 100%;
@@ -1625,7 +1649,15 @@ border-bottom: 1px solid rgb(97, 97, 97);
     /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     
 
+    .ul-menu li{
+      width: 100%;
+      padding: 0.5rem;
+    }
+    .ul-menu li:hover{
+      background-color: #ffffff5a;
+      border-radius: 0.5rem;
 
+    }
 body{
   font-size: 15px;
 }
@@ -1682,7 +1714,9 @@ body{
     }
 
     .ul-menu{
-      gap: 25px ;
+      width: 80%;
+      margin: 0px auto;
+      gap: 8px ;
       display: flex;
       flex-direction: column;
     }
@@ -1874,6 +1908,7 @@ display: none;}
 
   .contact-container{
     grid-template-columns: 1fr;
+    padding: 2rem;
   }
 }
 
