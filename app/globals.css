@@ -405,24 +405,38 @@ border-top: 1px solid #cfc8c8;
     border-left: 1px solid #cfc8c8;
     }
 
-.card-numbers{
-  width: 49.5%;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:flex-start;
-  padding: 2rem 20px;
-  gap: 20px;
-  background-color: e8e0dc;
-  transition: 0.5s;
-
-
-  
-}
-.card-numbers:hover{
-  background-color: rgba(255, 255, 255, 0.488);
-}
+    .card-numbers{
+      width: 49.5%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:flex-start;
+      padding: 2rem 20px;
+      gap: 20px;
+      background-color: e8e0dc;
+      transition: 0.5s;
+     
+    }
+    .card-numbers:hover{
+      background-color: rgba(255, 255, 255, 0.488);
+    }
+    .card-numbers-church{
+      width: 49.5%;
+      height: 270px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:flex-start;
+      padding: 4rem 20px;
+      gap: 20px;
+      background-color: e8e0dc;
+      transition: 0.5s;
+     
+    }
+    .card-numbers-church:hover{
+      background-color: rgba(255, 255, 255, 0.488);
+    }
 
 
 .card-numbers img{
@@ -534,6 +548,33 @@ top: -5px;
 .hww-slide:hover{
 scale: 1.02;
 }
+
+.hww-slide-mho{
+
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  height: 450px;
+  width: 30vw;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  animation: 3s linear 1s infinite running slidein;
+  transition-duration: 300ms;
+  left: 0px;
+}
+.hww-slide-mho:hover{
+scale: 1.02;
+}
+
+
 .learn-more{
   
   display: flex;
@@ -1837,6 +1878,11 @@ body{
         width: 44vw;
 
       }
+      .hww-slide-mho{
+      
+        width: 44vw;
+
+      }
     
 
 
@@ -2026,6 +2072,11 @@ display: none;}
         height: auto;
         width: 100%;
       }
+      .card-numbers-church{
+        height: auto;
+        padding: 1rem;
+        width: 100%;
+      }
       .numbers-container .divider{
         display: none;
 
@@ -2047,6 +2098,11 @@ display: none;}
             
             
             .hww-slide{
+            
+              width: 85.5vw;
+      
+            }
+            .hww-slide-mho{
             
               width: 85.5vw;
       

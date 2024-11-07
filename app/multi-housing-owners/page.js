@@ -75,26 +75,26 @@ export default function Home() {
                     <img src="/images/next.png" id="arrow-back"/>
                 <div className="slider-hww" id="hww-slider">
                     
-                    <div className="hww-slide" id="hww-slide-1">
+                    <div className="hww-slide-mho" id="hww-slide-1">
                         <h1>01</h1>
-                        <h5>Contact us.</h5>
+                        <h4>Contact us.</h4>
 
                     </div>
-                    <div className="hww-slide" id="hww-slide-2">
+                    <div className="hww-slide-mho" id="hww-slide-2">
                         <h1>02</h1>
-                        <h6>Learn about WayForward programming</h6>
+                        <h4>Learn about WayForward programming</h4>
 
                     </div>
-                    <div className="hww-slide" id="hww-slide-3">
+                    <div className="hww-slide-mho" id="hww-slide-3">
                         <h1>03</h1>
-                        <h6>Deploy a Resident Support Team.</h6>
+                        <h4>Deploy a Resident Support Team.</h4>
                         
                     </div>
-                    <div className="hww-slide" id="hww-slide-4">
+                    <div className="hww-slide-mho" id="hww-slide-4">
                         <h1>04</h1>
-                        <h6>
+                        <h4>
                             Impact your community
-                        </h6>
+                        </h4>
                         
                     </div>
                 </div>
