@@ -28,7 +28,7 @@ export default function NavBar() {
                                 <a href="/churches">Churches</a>
                             </div>
                             <div className="mobile-dropdown" id="dropdown1"><a href="/rst">Resident Support Team</a></div>
-                        <div className="mobile-dropdown" id="dropdown2"><a href="/churches">Churches</a></div>
+                            <div className="mobile-dropdown" id="dropdown2"><a href="/churches">Churches</a></div>
                         </li>
                         
                         <li><a href="/give">Donate</a></li>

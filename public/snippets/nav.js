@@ -54,17 +54,17 @@ let dropdown1 = document.getElementById('dropdown1');
 let dropdown2 = document.getElementById('dropdown2');
 
 const openDropdown =() =>{
+  if(window.innerWidth <= 1100){
   dropdown1.style.display = "block";
   dropdown1.style.maxHeight = "50px";
   dropdown1.style.lineHeight = "normal";
   dropdown1.style.padding = "1rem";
 
-
   dropdown2.style.display = "block";
   dropdown2.style.maxHeight = "50px";
   dropdown2.style.lineHeight = "normal";
   dropdown2.style.padding = "1rem";
-  
+  }
 
 
 }
