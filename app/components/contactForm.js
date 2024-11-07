@@ -7,9 +7,10 @@ export default function ContactForm() {
   const sendData  =  (event)=>{
     sendEmail(event)
   }
-
     return (
     <div class="contact-container">
+
+      <div className="contact-module">
         <div class="contact-us-header">
                 <h2>Contact us</h2>
         </div>
@@ -41,6 +42,7 @@ export default function ContactForm() {
           </button>
           
         </form>
+        </div>
     </div>
               
           );

@@ -6,6 +6,7 @@ import ContactForm from '../components/contactForm';
 
 export default function Home() {
   return (<>
+          <Script src="/snippets/homePageSlider.js" type="text/javascript"/>
 
     <div className="mho-section">
            
@@ -22,31 +23,84 @@ export default function Home() {
         
        <div className="rst-section">   
        <div class="church-columns-container">
-                    <div class="box-content">
-                        <h4>WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.
-                        </h4>
-                        
-                        
-                        <div class="text-columns">
+
+                    <div className="numbers-container">
+                    <h4>WayForward provides value to RE Owners through Kingdom Impact, Resident Engagement and Staff Satisfaction.</h4>
+
+                <div className="card-numbers">
+                    <div>
                         <p>
-                        94-98% of people in multi-housing communities are not connected to a faith family. That means only 2-6% of residents are Christians engaging their properties with Churches. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people. <br/>
-                        <br/>
+                        94-98% of people in multi-housing communities are not connected to a faith family. That means only 2-6% of residents are Christians connected to local churches. 
+                        </p>
+                    </div>
+                </div>
+                <div class="divider-vertical-top"></div>
+                <div className="card-numbers">
+                    <div>
+                        <p>
+                        Research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people.
+                        </p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div className="card-numbers">
+                    <div >
+                        <p>
                         Most Christian Real Estate owners and operators also are not pursuing any Kingdom Impact with their companies.
                         </p>
-                        <p>
-                        <img src="/images/v32.jpg" alt=""/>
-                        WayForward helps owners and operators rethink a new bottom line for their company by placing Resident Support Teams on site to engage their neighbors and solve these issues with faith-driven initiatives. <br/>
-                        </p> 
-                        </div>
-
-                        
                     </div>
-                    
+                </div>
+                <div class="divider-vertical-bottom"></div>
+
+                <div className="card-numbers">
+                    <div >
+                        <p>
+                        WayForward helps owners and operators rethink a new bottom line for their company by placing Resident Support Teams on site to engage their neighbors and solve these issues with faith-driven initiatives. <br/>
+                        </p>
+                    </div>
+                </div>
+
+                
+            </div>
                 
                 </div>   
-                    
+            
 
        </div>
+
+       <div className="how-we-work-section">
+            <h2 className="title-how-we-work">Process to partner</h2>
+            <div className="hww-container">
+                    <img src="/images/next.png" id="arrow-forward"/>
+                    <img src="/images/next.png" id="arrow-back"/>
+                <div className="slider-hww" id="hww-slider">
+                    
+                    <div className="hww-slide" id="hww-slide-1">
+                        <h1>01</h1>
+                        <h5>Contact us.</h5>
+
+                    </div>
+                    <div className="hww-slide" id="hww-slide-2">
+                        <h1>02</h1>
+                        <h6>Learn about WayForward programming</h6>
+
+                    </div>
+                    <div className="hww-slide" id="hww-slide-3">
+                        <h1>03</h1>
+                        <h6>Deploy a Resident Support Team.</h6>
+                        
+                    </div>
+                    <div className="hww-slide" id="hww-slide-4">
+                        <h1>04</h1>
+                        <h6>
+                            Impact your community
+                        </h6>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
        <ContactForm/>
 
       <div className="testimonial-section">     

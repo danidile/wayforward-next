@@ -23,14 +23,13 @@ export async function sendEmail(props){
   const mailOptions = {
     from: "wayforwardmailer@gmail.com",
     to: maillist,
-    subject: "Hello from Nodemailer",
+    subject: "Message from WayForward WebSite",
     html: '<p>Name:'+ props.name + 
-    '</p><br/><p>Email: '+ props.email +
-    '</p><br/><p>Phone: '+ props.phone +
-    '</p><br/><p>Message: '+ props.message
-    
-    ,
+    '</p><p>Email: '+ props.email +
+    '</p><p>Phone: '+ props.phone +
+    '</p><p>Message: '+ props.message + '</p>',
   };
+
   const info = await transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.error("Error sending email: ", error);
@@ -38,5 +37,5 @@ export async function sendEmail(props){
       console.log("Email sent: ", info.response);
     }
   });
-
+  return "message sent successfully";
 }

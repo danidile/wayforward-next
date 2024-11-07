@@ -19,8 +19,7 @@ export default function Footer() {
             <ul className="footer-menu-li">
                 <li><a href="/partners"><b>PARTNERS</b></a></li>
                 <li><a href="/multi-housing-owners">Multi Housing Owners</a></li>
-                <li><a href="/churches">Church</a></li>
-                <li>Organization</li>
+                <li><a href="/churches">Churches</a></li>
             </ul>
             
         </div>

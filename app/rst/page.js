@@ -5,21 +5,19 @@ import Script from "next/script";
 
 export default function rst() {
   return (<>
+       <div className="churches-section">
+           
+           <div className="churches-content">
+           <h2>Resident Support Team</h2>
+           <h6>
+                Join hundreds of people impacting their local communities. 
+            </h6>
+            <p>
+                Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
+            </p>
 
-    <div className="rst-section">     
-                <div class="rst-container-hero">
-                    <img src="/images/rst2.jpg"/>
-                    <div class="rst-content">
-                        <h2>Resident Support Team</h2>
-                        <h6>
-                            Join hundreds of people impacting their local communities. 
-                        </h6>
-                        <p>
-                            Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
-                        </p>
-                    </div>
-                </div>      
-
+           </div>
+           
        </div>
        
          
@@ -70,18 +68,19 @@ export default function rst() {
                 </div>      
 
        </div>
-       <div className="fc-section">
-               <div className="fc-content">
-                   <h2>Our 5 C’s:</h2>
-                   <ul>
-                       <li>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</li>
-                       <li>Connect residents to local resources and point them to social services</li>
-                       <li>Celebrate with events-with-intent</li>
-                       <li>Community engagement for residents</li>
-                       <li>Calling people to do the same</li>
-                   </ul>
-               </div>
-       </div>
+
+       <div className="data-section">
+            <h2>
+                WayForward 
+            </h2>
+            <ul>
+                <li className="data-li"><h5>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</h5></li>
+                <li className="data-li"><h5>Connect residents to local resources and point them to social services</h5></li>
+                <li className="data-li"><h5>Celebrate with events-with-intent</h5></li>
+                <li className="data-li"><h5>Community engagement for residents</h5></li>
+                <li className="data-li"><h5>Calling people to do the same</h5></li>
+            </ul>
+        </div>
 
 
 

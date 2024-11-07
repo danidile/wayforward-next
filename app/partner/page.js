@@ -9,7 +9,7 @@ export default function Home() {
 
 
 <div class="partner-hero-section">
-            <div class="circle-MHO circle-partner"><p  class="circle-title">Multi-Housing Owners</p></div>
+            <div class="circle-MHO circle-partner"><p  class="circle-title">Multi-Housing <br/>Owners</p></div>
             <div class="circle-C circle-partner"><p class="circle-title">Churches</p></div>
             <div class="circle-O circle-partner"><p class="circle-title">Organizations</p></div>
 

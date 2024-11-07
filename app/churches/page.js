@@ -22,35 +22,50 @@ export default function Home() {
            
        </div>
         
-       <div className="rst-section">     
-                <div class="church-columns-container">
-                    <div class="box-content">
-                        <h4>WayForward provides value to Churches through training and mobilization.
-                        </h4>
-                        
-                        
-                        <div class="text-columns">
+       <div className="rst-section">   
+       <div class="church-columns-container">
+
+                    <div className="numbers-container">
+                    <h4>WayForward provides value to Churches through training and mobilization.</h4>
+
+                <div className="card-numbers">
+                    <div>
                         <p>
                         Drawing on over six years of experience, WayForward partners with churches to catalyze new initiatives through training and mobilization to effectively engage multi-housing communities. We aim to advance the God’s Kingdom in areas where 94%-98% of multi-housing residents are disconnected from God and unengaged by Churches.
-                        <br/>
-                        Since its founding, WayForward has aimed to spread the message of Jesus and make disciples who, in turn, make more disciples. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people.
                         </p>
-                        <p>
-                        <img src="/images/church_bread.png" alt=""/>
-                        We believe this mission is central to the Church's purpose and should be treated with urgency. Every individual deserves the chance to hear a clear gospel message and have the opportunity to be a disciple-maker. The Church is the primary means of achieving this.
-                        We would love to discuss how we can equip and mobilize your church for this important work in your community.
-                        </p> 
-                        </div>
-                        <br/>
-                        <br/>
-                        
                     </div>
-                    
+                </div>
+                <div class="divider-vertical-top"></div>
+                <div className="card-numbers">
+                    <div>
+                        <p>
+                        Since its founding, WayForward has aimed to spread the message of Jesus and make disciples who, in turn, make more disciples. However, research shows only 6% of all Christians in America are integrating their beliefs with their behavior. 
+                        </p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div className="card-numbers">
+                    <div >
+                        <p>
+                        That means ~.03% of all Multi-Housing Residents are integrated disciples impacting communities for God’s Kingdom leaving a vast amount of disconnected and unengaged people. We believe this mission is central to the Church's purpose and should be treated with urgency. 
+                        </p>
+                    </div>
+                </div>
+                <div class="divider-vertical-bottom"></div>
+
+                <div className="card-numbers">
+                    <div >
+                        <p>
+                        Every individual deserves the chance to hear a clear gospel message and have the opportunity to be a disciple-maker. The Church is the primary means of achieving this. We would love to discuss how we can equip and mobilize your church for this important work in your community.
+                        </p>
+                    </div>
+                </div>
+
                 
-                </div>      
-
-       </div>
-
+              </div>
+                
+            </div>  
+            </div>
 
 
        <div class="mht-steps-section" id="mht-steps-section">
@@ -157,6 +172,7 @@ export default function Home() {
           
         </ul>
       </div>
+
       <ContactForm/>
 
       <div className="testimonial-section">     
