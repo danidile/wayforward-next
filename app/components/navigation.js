@@ -5,8 +5,6 @@ export default function NavBar() {
   return (
     <>
     <Script src="/snippets/dropdown-menu.js" type="text/javascript"/>
-
-    {/* <div class="menu-top-space-mobile"></div> */}
     <div class="menu-box">
         <div className="blur-menu-bg"> </div>
             <div className="menu-container">
