@@ -286,7 +286,7 @@ margin: auto;
   position: relative;
   z-index: 0;
   padding: 15vh 9rem;
-  background-image: url('/images/cta-bg2.jpg');
+  background-image: url('/images/cta-bg2.webp');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;

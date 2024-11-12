@@ -44,7 +44,7 @@ export default function rst() {
                             Go to training platform            
                         </a>
                     </div>
-                    <img src="/images/study.jpg" className="remove-on-mobile" />
+                    <img src="/images/study-together.webp" className="remove-on-mobile" />
 
                     </>
                     <>
