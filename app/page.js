@@ -33,7 +33,7 @@ export default async function Home() {
 
         </h5>
         <div class="impact-images">
-            <img src="/images/v3.jpg" className="img-impact-3"/>
+            <img src="/images/v3.webp" className="img-impact-3"/>
         </div>
 
     </div>
