@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <>
     <Script src="/snippets/dropdown-menu.js" type="text/javascript"/>
-    <div class="menu-box">
+    <div className="menu-box">
         <div className="blur-menu-bg"> </div>
             <div className="menu-container">
                 <div className="menu-img-container">
@@ -42,7 +42,7 @@ export default function NavBar() {
                         </li>
                     </ul>
                 </div>
-                <div class="hamburger-container">
+                <div className="hamburger-container">
                     <img src="/images/menu.png" id="menu-burger"/>
                 </div>
                 

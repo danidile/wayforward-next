@@ -31,7 +31,7 @@ export default function rst() {
                         <h3>01.Apply</h3>
 
                         
-                                <a className="button-big m-top-20" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
+                                <a className="button-big m-top-20 margin-center" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
                                 Apply Here                
                                 </a>
                                                           
@@ -40,7 +40,7 @@ export default function rst() {
                     <>
                     <div class="rst-content">
                         <h3>02.Get Trained</h3>
-                        <a className="button-big m-top-20" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
+                        <a className="button-big m-top-20 margin-center" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
                             Go to training platform            
                         </a>
                     </div>
