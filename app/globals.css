@@ -152,7 +152,11 @@ margin-top: 40px;
   list-style-type: none;
   align-content: stretch;
 }
-
+.consent{
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+}
 
 .menu-logo{
   width: 200px;
@@ -1733,6 +1737,24 @@ border-bottom: 1px solid rgb(97, 97, 97);
   animation: prixClipFix 2s linear infinite ;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes rotate {
   100%   {transform: rotate(360deg)}
 }
@@ -1743,6 +1765,51 @@ border-bottom: 1px solid rgb(97, 97, 97);
     50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
     75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
     100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
+}
+
+
+
+
+
+
+
+
+
+
+.privacy-policy-page{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.privacy-policy-page h1{
+  font-size: 30px;
+  font-weight: 500;
+}
+.privacy-policy-page h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.privacy-policy-page h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+.privacy-policy-page h4{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.privacy-policy-page h5{
+  font-size: 30px;
+  font-weight: 700;
+}
+.privacy-policy-page p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
 
 

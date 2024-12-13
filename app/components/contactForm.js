@@ -114,6 +114,12 @@ export default function ContactForm() {
                 required
               ></textarea>
             </div>
+            <div class="consent">
+
+            <input type="checkbox" id="consent" name="consent" value="consent" required/>
+            <label for="consent">"I consent to the processing of my personal data in accordance with the <a href="/privacy-policy"><strong>Privacy Policy</strong></a>." </label><br/>
+            </div>
+
 
             <button
               class="send-button button-big"
