@@ -46,6 +46,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/f39aadf46be6ea0eccade1b8/script.js"></script>
     </footer>
   );
 }
