@@ -13,29 +13,26 @@ export default function Home() {
                 Join the impact! Your donation can transform lives in apartments
                 nationwide.
               </h4>
-              <br/>
-              <p><b>Donate. Pray. Join the movement.</b></p>
+              <br />
+              <p>
+                <b>Donate. Pray. Join the movement.</b>
+              </p>
             </div>
 
             <div className="cta-donate">
-              <h4>Methods to donate:</h4>
-              <button class="accordion">
-                Zeffy:{" "}
-                <img
-                  src="/images/right-arrow.png"
-                  className="accordian-arrow"
-                />
-                <div class="panel">
+              <h4>Ways to give:</h4>
+              <button class="accordion-online-button">
+                Online:
+                
                   <a
                     href="https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c"
                     className="button-big"
                   >
                     Donate
                   </a>
-                </div>
               </button>
               <button class="accordion  accordion-2">
-                Grants:{" "}
+                Grants:
                 <img
                   src="/images/right-arrow.png"
                   className="accordian-arrow"

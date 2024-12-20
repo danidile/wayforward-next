@@ -385,7 +385,9 @@ margin-bottom: 2rem;
 }
 
 
-
+.numbers-container p{
+  font-size: 1.2rem;
+}
 
 
 
@@ -1340,6 +1342,24 @@ background: white;
 
 }
 
+.accordion-online-button{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 22px;
+  transition: 0.4s;
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
 
 .panel{
   font-weight: 400;

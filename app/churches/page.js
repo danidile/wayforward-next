@@ -27,9 +27,9 @@ export default function Home() {
             <div className="card-numbers-church">
               <div>
                 <p>
-                  Research shows only 6% of all Christians in your congregation
-                  are integrating their beliefs with their behavior. We can help
-                  them walk the talk.
+                  Research shows only 6% that of all Christians in your
+                  congregation are integrating their beliefs with their
+                  behavior. We can help them walk the talk.
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Home() {
                 WayForward meets with the church's leadership (senior, missions
                 or discipleship pastor) to discuss the church's vision and
                 potential alignment with discipleship training and multi-housing
-                ministry
+                ministry.
               </div>
             </li>
             <li class="steps-li">
@@ -97,7 +97,7 @@ export default function Home() {
               <div class="step-text">
                 <h6>Preliminary Planning Meeting</h6>
                 <p class="steps-duration">50-60 Min</p>
-                Follow-up meeting to discuss training and event details
+                Follow-up meeting to discuss training and event details.
               </div>
             </li>
             <li class="steps-li">
@@ -122,8 +122,7 @@ export default function Home() {
                 <h6>Gospel Conversation Training</h6>
                 <p class="steps-duration">7 Hours</p>
                 Church-wide training for the whole congregation on ways to reach
-                the lost, share the Gospel and make disciples. Whoever catches
-                the vision can sign up.
+                the lost, share the Gospel and make disciples.
               </div>
             </li>
             <li class="steps-li">
@@ -146,11 +145,11 @@ export default function Home() {
                 <div class="steps-vertical-line"></div>
               </div>
               <div class="step-text">
-                <h6>Quarterly Iron-On-Iron calls offered</h6>
+                <h6>Ongoing Coaching</h6>
                 <p class="steps-duration">60-90 Min</p>
-                Ongoing Coaching: WayForward offers ongoing support to the
-                church leadership and training participants who catch the vision
-                and want to impact their community on a regular basis.
+                WayForward offers ongoing support to the church leadership and
+                training participants who catch the vision and want to impact
+                their community on a regular basis.
               </div>
             </li>
           </ul>
