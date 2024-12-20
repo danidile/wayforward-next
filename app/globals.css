@@ -2,7 +2,7 @@
 :root {
   --background: #f1edeb;
   --foreground: #171717;
-  --main-color:#ff84571a;
+  --main-color:#ff8457;
   --main-color-light:#ffa786;
   --main-color-white:#f8f2eb;
   --color-neutral: #e7e0dc;
@@ -606,7 +606,7 @@ background-image: url('/images/v9.webp');
 
 
 .data-section{
-margin: 20vh auto;
+margin: 10vh auto;
 width: 80vw;
 }
 
@@ -729,7 +729,9 @@ text-align: center;
 margin: 5px 0px;
 }
 
-
+.churches-content h6{
+  text-align: center;
+}
 .churches-content p{
   max-width: 800px;
   margin: 10px auto 10px auto;
@@ -1426,7 +1428,9 @@ border-radius: 2px;
 .step-text{
   padding-left: 20px;
   padding-bottom: 50px;
-  max-width: 500px;
+  max-width: 450px;
+  text-align: justify;
+
 }
 
 .step-text h6{
@@ -1584,7 +1588,7 @@ font-size: 18px;
 
 
   .testimonial-section{
-  margin: 0px auto;
+  margin: 40px auto;
     width: 95vw;
     margin-top: 50px;
     color: black;

@@ -67,8 +67,8 @@ export default function Home() {
             <div className="values-cards">
                 <div className="values-card"><h5 className="values-card-title">God’s Kingdom</h5> <p className="values-card-text">We live for God’s glory, not for our own name.</p></div>
                 <div className="values-card"><h5 className="values-card-title">Servant Littleness</h5> <p className="values-card-text">Greatness is found in serving with humility and integrity.</p></div>
-                <div className="values-card"><h5 className="values-card-title">Holistic Formation</h5> <p className="values-card-text">Abide and bear fruit in every sphere of life. </p></div>
-                <div className="values-card"><h5 className="values-card-title">Incarnational Multiplication</h5> <p className="values-card-text">Empowering and mobilizing every believer.</p></div>
+                <div className="values-card"><h5 className="values-card-title">Holistic Formation</h5> <p className="values-card-text">Forming disciple-makers to abide and bear fruit in every sphere of life.</p></div>
+                <div className="values-card"><h5 className="values-card-title">Incarnational Multiplication</h5> <p className="values-card-text">Becoming all things to all people and teaching them to do the same.</p></div>
                 <div className="values-card"><h5 className="values-card-title">Excellence</h5> <p className="values-card-text">Striving for the highest standards in all we do.</p></div> 
             </div>
         </div>

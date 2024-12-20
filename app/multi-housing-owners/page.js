@@ -46,7 +46,7 @@ export default function Home() {
                 <div className="card-numbers">
                     <div >
                         <p>
-                        Most Christian Real Estate owners and operators also are not pursuing any Kingdom Impact with their companies.
+                        Most Christian Real Estate owners and operators are not pursuing any Kingdom Impact with their companies," please add "forgetting that their God-given calling is to be stewards of His wealth to produce Kingdom ROI first
                         </p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                     
                     <div className="hww-slide-mho" id="hww-slide-1">
                         <h1>01</h1>
-                        <h4>Contact us.</h4>
+                        <h4>Contact us</h4>
 
                     </div>
                     <div className="hww-slide-mho" id="hww-slide-2">
@@ -87,7 +87,7 @@ export default function Home() {
                     </div>
                     <div className="hww-slide-mho" id="hww-slide-3">
                         <h1>03</h1>
-                        <h4>Deploy a Resident Support Team.</h4>
+                        <h4>Deploy a Resident Support Team</h4>
                         
                     </div>
                     <div className="hww-slide-mho" id="hww-slide-4">
@@ -101,7 +101,6 @@ export default function Home() {
             </div>
         </div>
         
-       <ContactForm/>
 
       <div className="testimonial-section">     
             <div class="testimonial-container">
@@ -133,6 +132,8 @@ export default function Home() {
             </div>      
 
        </div>
+       <ContactForm/>
+
       
   </>);
 }

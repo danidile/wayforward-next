@@ -19,7 +19,18 @@ export default function rst() {
            </div>
            
        </div>
-       
+       <div className="data-section">
+            <h2>
+            WayForward 5 C's 
+            </h2>
+            <ul>
+                <li className="data-li"><h5>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</h5></li>
+                <li className="data-li"><h5>Connect residents to local resources and point them to social services</h5></li>
+                <li className="data-li"><h5>Celebrate with events-with-intent</h5></li>
+                <li className="data-li"><h5>Community engagement for residents</h5></li>
+                <li className="data-li"><h5>Calling people to do the same</h5></li>
+            </ul>
+        </div>
          
         <div className="rst-section">
         <h3>Follow the steps.</h3>
@@ -31,7 +42,7 @@ export default function rst() {
                         <h3>01.Apply</h3>
 
                         
-                                <a className="button-big m-top-20 margin-center" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f">
+                                <a className="button-big m-top-20 margin-center" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f" target="_blank" rel="noopener noreferrer" >
                                 Apply Here                
                                 </a>
                                                           
@@ -40,7 +51,7 @@ export default function rst() {
                     <>
                     <div class="rst-content">
                         <h3>02.Get Trained</h3>
-                        <a className="button-big m-top-20 margin-center" href="https://wayforwardtraining.org/courses/rst-training/">
+                        <a className="button-big m-top-20 margin-center" href="https://wayforwardtraining.org/courses/rst-training/" target="_blank" rel="noopener noreferrer">
                             Go to training platform            
                         </a>
                     </div>
@@ -69,18 +80,7 @@ export default function rst() {
 
        </div>
 
-       <div className="data-section">
-            <h2>
-                WayForward 
-            </h2>
-            <ul>
-                <li className="data-li"><h5>Care for resident’s holistic wellbeing (physical, emotional, and spiritual)</h5></li>
-                <li className="data-li"><h5>Connect residents to local resources and point them to social services</h5></li>
-                <li className="data-li"><h5>Celebrate with events-with-intent</h5></li>
-                <li className="data-li"><h5>Community engagement for residents</h5></li>
-                <li className="data-li"><h5>Calling people to do the same</h5></li>
-            </ul>
-        </div>
+       
 
 
 
