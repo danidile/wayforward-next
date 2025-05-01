@@ -21,7 +21,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="https://wayforwardtraining.org/courses/rst-training/">
-                Resident Support Team
+                Disciple-Making
               </a>
             </li>
             <li>
@@ -46,7 +46,11 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/f39aadf46be6ea0eccade1b8/script.js"></script>
+      <script
+        id="cookieyes"
+        type="text/javascript"
+        src="https://cdn-cookieyes.com/client_data/f39aadf46be6ea0eccade1b8/script.js"
+      ></script>
     </footer>
   );
 }

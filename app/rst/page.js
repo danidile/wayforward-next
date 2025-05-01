@@ -51,7 +51,7 @@ export default function rst() {
                     <>
                     <div class="rst-content">
                         <h3>02.Get Trained</h3>
-                        <a className="button-big m-top-20 margin-center" href="https://wayforwardtraining.org/courses/rst-training/" target="_blank" rel="noopener noreferrer">
+                        <a className="button-big m-top-20 margin-center" href="https://wayforwardtraining.org/courses/rst-onboarding/" target="_blank" rel="noopener noreferrer">
                             Go to training platform            
                         </a>
                     </div>

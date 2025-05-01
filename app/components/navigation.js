@@ -22,10 +22,10 @@ export default function NavBar() {
                                 Training
                             </div>
                             <div class="dropdown-content" id="dropdown-content">
-                                <a href="https://wayforwardtraining.org/courses/rst-training/">Resident Support Team</a>
+                                <a href="https://wayforwardtraining.org/courses/rst-training/">Disciple-Making</a>
                                 <a href="/churches">Churches</a>
                             </div>
-                            <div className="mobile-dropdown" id="dropdown1"><a href="/rst">Resident Support Team</a></div>
+                            <div className="mobile-dropdown" id="dropdown1"><a href="/rst">Disciple-Making</a></div>
                             <div className="mobile-dropdown" id="dropdown2"><a href="/churches">Churches</a></div>
                         </li>
                         
