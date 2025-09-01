@@ -37,7 +37,7 @@ export default function NavBar() {
                         </li>
                         <li>
                             <a href="/rst" className="button-big">
-                                Become a RST
+                                Become an RST
                             </a>
                         </li>
                     </ul>

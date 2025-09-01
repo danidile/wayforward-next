@@ -13,7 +13,7 @@ export default function rst() {
                 Join hundreds of people impacting their local communities. 
             </h6>
             <p>
-                Resident Support Teams (RTSs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
+                Resident Support Teams (RSTs) are Christians 18 years and older passionate about engaging their neighbors with the gospel and the 5 C’s while living in multi-housing communities nationwide. 
             </p>
 
            </div>

@@ -16,7 +16,7 @@ export default async function Home() {
           </li>
           <li>
             <a href="/rst" className="button-big">
-              Become a RST
+              Become an RST
             </a>
           </li>
         </ul>
@@ -27,7 +27,7 @@ export default async function Home() {
           WayForward partners with multi-housing owners, churches, and
           organizations to address disconnected and unengaged communities by
           fostering meaningful connections and engagement through faith-driven
-          initiative.
+          initiatives.
         </h5>
         <div class="impact-images">
           <img src="/images/v3.webp" className="img-impact-3" />
@@ -104,7 +104,7 @@ export default async function Home() {
             <div className="hww-slide" id="hww-slide-2">
               <h1>02</h1>
               <h6>
-                We place Resident Support Teams in our partner’s multi-housing
+                We place Resident Support Teams in our partners' multi-housing
                 communities.
               </h6>
               <a href="/rst">
@@ -154,7 +154,7 @@ export default async function Home() {
         <h2>WayForward</h2>
         <ul>
           <li className="data-li">
-            <h3>6+ Years</h3>
+            <h3>6+ years</h3>
           </li>
           <li className="data-li">
             <h3>35,000+ units served</h3>
@@ -180,7 +180,7 @@ export default async function Home() {
               Become a Partner
             </a>
             <a href="/rst" className="button-3">
-              Become A RST
+              Become an RST
             </a>
           </div>
         </div>
