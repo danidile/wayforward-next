@@ -153,12 +153,12 @@ export default function ContactForm() {
               </label>
               <br />
             </div>
-            <ReCAPTCHA
+            {/* <ReCAPTCHA
               sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
               ref={recaptchaRef}
               onChange={handleChange}
               onExpired={handleExpired}
-            />
+            /> */}
 
             <button
               class="send-button button-big"
