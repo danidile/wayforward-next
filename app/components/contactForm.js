@@ -1,9 +1,13 @@
 "use client";
 import { sendEmail } from "./newForm";
 import { useForm } from "react-hook-form";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function ContactForm() {
+  const recaptchaRef = useRef(null);
+  const [isVerified, setIsVerified] = useState(false);
+
   const {
     register,
     handleSubmit,
@@ -11,21 +15,20 @@ export default function ContactForm() {
     formState: { errors },
   } = useForm();
 
-  const [ emailState, setEmailState ] = useState({
+  const [emailState, setEmailState] = useState({
     submitted: false,
     error: "",
-    sent:"",
-    sending: false
+    sent: "",
+    sending: false,
   });
   console.log(emailState.submitted);
-  
+
   const sendData = async (event) => {
     setEmailState({
       submitted: true,
-      error:"",
+      error: "",
       sent: "",
-      sending: true
-
+      sending: true,
     });
     const emailInfo = await sendEmail(event); // Use 'await' to get the resolved value
     if (emailInfo.error) {
@@ -33,32 +36,50 @@ export default function ContactForm() {
         submitted: true,
         error: emailInfo.error,
         sent: "",
-        sending: false
-
+        sending: false,
       });
-    }else{
+    } else {
       setEmailState({
         submitted: true,
-        error:"",
+        error: "",
         sent: emailInfo.sent,
-        sending: false
-
+        sending: false,
       });
     }
   };
+  async function handleCaptchaSubmission(token) {
+    try {
+      if (token) {
+        await fetch("/api", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ token }),
+        });
+        setIsVerified(true);
+      }
+    } catch (e) {
+      setIsVerified(false);
+    }
+  }
 
+  const handleChange = (token) => {
+    handleCaptchaSubmission(token);
+  };
 
+  function handleExpired() {
+    setIsVerified(false);
+  }
+  console.log(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY);
   return (
     <div class="contact-container">
       <div className="contact-module">
         <div class="contact-us-header">
           <h2>Contact us</h2>
         </div>
-        {emailState.sending &&
-          (
-            <span class="loader"></span>
-          )
-        }
+        {emailState.sending && <span class="loader"></span>}
         {!emailState.submitted && (
           <form
             id="contact-form"
@@ -115,37 +136,53 @@ export default function ContactForm() {
               ></textarea>
             </div>
             <div class="consent">
-
-            <input type="checkbox" id="consent" name="consent" value="consent" required/>
-            <label for="consent">"I consent to the processing of my personal data in accordance with the <a href="/privacy-policy"><strong>Privacy Policy</strong></a>." </label><br/>
+              <input
+                type="checkbox"
+                id="consent"
+                name="consent"
+                value="consent"
+                required
+              />
+              <label for="consent">
+                "I consent to the processing of my personal data in accordance
+                with the{" "}
+                <a href="/privacy-policy">
+                  <strong>Privacy Policy</strong>
+                </a>
+                ."{" "}
+              </label>
+              <br />
             </div>
-
+            <ReCAPTCHA
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+              ref={recaptchaRef}
+              onChange={handleChange}
+              onExpired={handleExpired}
+            />
 
             <button
               class="send-button button-big"
               id="submit"
               type="submit"
               value="SEND"
+              disabled={!isVerified}
             >
               Send
             </button>
           </form>
         )}
-        {
-          emailState.error && (
-            <p className="email-error">{emailState.error}
-            <br/><br/>
-            <p>Please if this error reoccurs contact us directly at dominic@wayforwardcommunity.org</p>
+        {emailState.error && (
+          <p className="email-error">
+            {emailState.error}
+            <br />
+            <br />
+            <p>
+              Please if this error reoccurs contact us directly at
+              dominic@wayforwardcommunity.org
             </p>
-          )
-        }
-        {
-          emailState.sent && (
-            <p className="email-sent">{emailState.sent}
-
-            </p>
-          )
-        }
+          </p>
+        )}
+        {emailState.sent && <p className="email-sent">{emailState.sent}</p>}
       </div>
     </div>
   );
