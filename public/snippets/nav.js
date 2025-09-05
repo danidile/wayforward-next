@@ -5,7 +5,6 @@ let blurbg = document.getElementsByClassName('blur-menu-bg')[0];
 let containerMenu = document.getElementsByClassName('menu-list-container')[0];
 let toggle = 0;
 let menuEnterOut = () =>{
-    console.log('Hello');
     if(toggle === 0){
       blurbg.style.display = "block";
 
@@ -29,7 +28,6 @@ let menuEnterOut = () =>{
         menuContainer.style.alignItems = "center";
     }
 };
-console.log('Hello');
 burger.onclick = menuEnterOut;
 
 

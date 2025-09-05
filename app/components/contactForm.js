@@ -72,7 +72,6 @@ export default function ContactForm() {
   function handleExpired() {
     setIsVerified(false);
   }
-  console.log(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY);
   return (
     <div class="contact-container">
       <div className="contact-module">
@@ -153,12 +152,12 @@ export default function ContactForm() {
               </label>
               <br />
             </div>
-            {/* <ReCAPTCHA
+            <ReCAPTCHA
               sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
               ref={recaptchaRef}
               onChange={handleChange}
               onExpired={handleExpired}
-            /> */}
+            />
 
             <button
               class="send-button button-big"

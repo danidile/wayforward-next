@@ -53,7 +53,6 @@ let slideLeftOnClick = () =>{
 
 };
 
-console.log('Hello');
 slide1.onmouseover = slideLeft;
 slide2.onmouseover = slideLeft;
 slide3.onmouseenter = slideRight;

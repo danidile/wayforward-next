@@ -60,7 +60,6 @@ export async function sendEmail(props){
 
   try{
     const info = await transporter.sendMail(mailOptions);
-    console.log('Email sent Dani:', info.response);
     return {
       sent: "Your message has been sent successfully! We will get back to you shortly."
     }
