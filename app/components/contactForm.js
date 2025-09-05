@@ -160,7 +160,7 @@ export default function ContactForm() {
             />
 
             <button
-              class="send-button button-big"
+              class={`send-button button-big ${!isVerified ? "button-big-disabled" : ""}`}
               id="submit"
               type="submit"
               value="SEND"
