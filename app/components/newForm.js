@@ -1,34 +1,35 @@
-'use server';
-import nodemailer from 'nodemailer';
-export async function sendEmail(props){
+"use server";
+import nodemailer from "nodemailer";
+export async function sendEmail(props) {
   // console.log(props);
 
-    const transporter = nodemailer.createTransport({
+  const transporter = nodemailer.createTransport({
     service: "gmail",
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
     auth: {
-      user: 'wayforwardmailer@gmail.com',
-      pass: 'iktdbqwdtwuaktyc'
+      user: "wayforwardmailer@gmail.com",
+      pass: "iktdbqwdtwuaktyc",
     },
   });
   var maillist = [
-    'danidile94@gmail.com',
-    'dominic@wayforwardcommunity.org',
-    'robby@wayforwardcommunity.org',
-    'jim@wayforwardcommunity.org',
+    "dominic@wayforwardcommunity.org",
+    "robby@wayforwardcommunity.org",
+    "allie@wayforwardcommunity.org",
   ];
-  
+
   const mailOptions = {
     from: "wayforwardmailer@gmail.com",
     to: maillist,
     subject: "Message from WayForward WebSite",
-    attachments: [{
-      filename: 'Logo.png',
-      path: 'https://wayforwardcommunity.org/images/WF-Logo.png',
-      cid: 'logo' //my mistake was putting "cid:logo@cid" here! 
-    }],
+    attachments: [
+      {
+        filename: "Logo.png",
+        path: "https://wayforwardcommunity.org/images/WF-Logo.png",
+        cid: "logo", //my mistake was putting "cid:logo@cid" here!
+      },
+    ],
     html: `<html>
 <head>
 <meta name="viewport" content="width=device-width" />
@@ -58,15 +59,16 @@ export async function sendEmail(props){
 </html>`,
   };
 
-  try{
+  try {
     const info = await transporter.sendMail(mailOptions);
     return {
-      sent: "Your message has been sent successfully! We will get back to you shortly."
-    }
-  }catch (error) {
-    console.error('Error sending email DAni:', error);
+      sent: "Your message has been sent successfully! We will get back to you shortly.",
+    };
+  } catch (error) {
+    console.error("Error sending email DAni:", error);
     return {
-      error: "An error has occurred, and we haven't been able to send your email."
-    }
+      error:
+        "An error has occurred, and we haven't been able to send your email.",
+    };
   }
 }
