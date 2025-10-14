@@ -23,13 +23,12 @@ export default function Home() {
               <h4>Ways to give:</h4>
               <button class="accordion-online-button">
                 Online:
-                
-                  <a
-                    href="https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c"
-                    className="button-big"
-                  >
-                    Donate
-                  </a>
+                <a
+                  href="https://www.zeffy.com/en-US/fundraising/b6443d64-dd5a-4436-90de-e2a6d7133c0c"
+                  className="button-big"
+                >
+                  Donate
+                </a>
               </button>
               <button class="accordion  accordion-2">
                 Grants:
@@ -57,10 +56,7 @@ export default function Home() {
                   className="accordian-arrow"
                 />
                 <div class="panel">
-                  <p>
-                    WayForward 401 Congress Ave. STE. 3250 Austin, TX 78701
-                    Attn: Dominic Rosato
-                  </p>
+                  <p>3507 N. Lamar Blvd. #300154 Austin, TX 78705</p>
                 </div>
               </button>
             </div>
