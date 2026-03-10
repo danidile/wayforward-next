@@ -15,7 +15,7 @@ export default async function Home() {
             </a>
           </li>
           <li>
-            <a href="/rst" className="button-big">
+            <a href="https://airtable.com/appkZEAhXPaRtF3g8/pag635aJj96IAfKwN/form" className="button-big">
               Become an RST
             </a>
           </li>
