@@ -42,7 +42,7 @@ export default function rst() {
                         <h3>01.Apply</h3>
 
                         
-                                <a className="button-big m-top-20 margin-center" href="https://share.hsforms.com/10GIJLd5ZSeyaCCOBuM8xyg4ne2f" target="_blank" rel="noopener noreferrer" >
+                                <a className="button-big m-top-20 margin-center" href="https://airtable.com/appkZEAhXPaRtF3g8/pag635aJj96IAfKwN/form" target="_blank" rel="noopener noreferrer" >
                                 Apply Here                
                                 </a>
                                                           
