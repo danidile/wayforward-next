@@ -159,7 +159,7 @@ export default function Home() {
           <div class="testimonial-container">
             <img src="/images/testimonial2.png" alt="" />
 
-            <div class="testimonial-content">
+            <div className="testimonial-content">
               <h5>
                 <strong>New Life, Spartanburg, SC</strong>
               </h5>

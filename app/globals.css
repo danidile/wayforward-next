@@ -1,7 +1,7 @@
 :root {
-  --background: #f1edeb;
+  --background: #f9f3ea;
   --foreground: #171717;
-  --main-color: #ff8457;
+  --main-color: #ff6700;
   --main-color-light: #ffa786;
   --main-color-white: #f8f2eb;
   --color-neutral: #e7e0dc;
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #f1edeb;
+    --background: #f9f3ea;
     --foreground: #171717;
   }
 }
@@ -275,7 +275,8 @@ small {
 /*Homepage*/
 
 .hero-section {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 80px -20px,
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 30px 80px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border-radius: var(--border-radius--lg);
   width: 95vw;
@@ -283,7 +284,7 @@ small {
   position: relative;
   z-index: 0;
   padding: 15vh 9rem;
-  background-image: url("/images/cta-bg2.webp");
+  background-image: url("/images/NewcoverGrad.webp");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -439,20 +440,20 @@ small {
 .button-big {
   display: inline-block;
   color: var(--main-color-white);
-  background: rgb(255, 133, 87);
+  background: rgb(255, 103, 0);
   background: -moz-linear-gradient(
     342deg,
-    rgba(255, 133, 87, 1) 0%,
+    rgba(255, 103, 0, 1) 0%,
     rgba(215, 79, 36, 1) 100%
   );
   background: -webkit-linear-gradient(
     342deg,
-    rgba(255, 133, 87, 1) 0%,
+    rgba(255, 103, 0, 1) 0%,
     rgba(215, 79, 36, 1) 100%
   );
   background: linear-gradient(
     342deg,
-    rgba(255, 133, 87, 1) 0%,
+    rgba(255, 103, 0, 1) 0%,
     rgba(215, 79, 36, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8557",endColorstr="#d74f24",GradientType=1);
@@ -972,7 +973,8 @@ footer {
   object-fit: cover;
   height: 300px;
   margin-left: 40px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
@@ -1164,7 +1166,7 @@ footer {
   padding: 6rem;
   overflow: hidden;
   border-radius: 24px;
-  background: url("/images/bg-gradient-top.jpg");
+  background: url("/images/bg-grain-gradient-top.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -1409,13 +1411,14 @@ footer {
 .churches-section {
   width: 98vw;
   height: 50vh;
-  color: #333333;
+  color: white;
   margin: 1vw;
   border-radius: 12px;
   position: relative;
   overflow: hidden;
-  background-image: url("/images/bg1.webp");
+  background-image: url("/images/NewGradient.webp");
   background-size: cover;
+  background-position: bottom;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -169,7 +169,7 @@ export default async function Home() {
       </div>
 
       <div className="cta-section">
-        <img src="images/cta-bg3.jpg" className="cta-image-bg"></img>
+        <img src="images/NewcoverGrad.webp" className="cta-image-bg"></img>
         <div className="cta-content">
           <div className="cta-left">
             <h2>Join WayForward</h2>

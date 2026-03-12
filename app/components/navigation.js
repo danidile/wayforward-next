@@ -10,7 +10,7 @@ export default function NavBar() {
           <div className="menu-img-container">
             <a href="/">
               <img
-                src="/images/WF-Logo.png"
+                src="/images/Hor-Col-Black.png"
                 alt=""
                 className="menu-logo filter-bright"
               ></img>
