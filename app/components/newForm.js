@@ -9,8 +9,8 @@ export async function sendEmail(props) {
     port: 587,
     secure: false,
     auth: {
-      user: "wayforwardmailer@gmail.com",
-      pass: "iktdbqwdtwuaktyc",
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
     },
   });
   var maillist = [
